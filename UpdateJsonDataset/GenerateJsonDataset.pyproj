@@ -31,6 +31,9 @@
     <Compile Include="excel_to_json.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="split_json.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
