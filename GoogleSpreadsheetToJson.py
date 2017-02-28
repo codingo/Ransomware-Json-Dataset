@@ -13,15 +13,18 @@ import urllib.request
 import pandas as pd
 
 SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
-WORKBOOK = 'RansomwareOverview.xlsx'
+OUTPUTSHEET = 'RansomwareOverview.xlsx'
+JSONFILE = 'RansomwareOverview.json'
 
 # download and save ransomware overview file locally
 try:
-    urllib.request.urlretrieve(SOURCESHEET, WORKBOOK)
+    urllib.request.urlretrieve(SOURCESHEET, OUTPUTSHEET)
 except IOError:
     print('An error occured trying to write an updated spreadsheet. Do you already have it open?')
 except urllib.error.URLError:
-    print('An error occured trying to download the file. Please check the source and try again')
+    print('An error occured trying to download the file. Please check the source and try again.')
 
-sheet = pd.read_excel(open(WORKBOOK,'rb'), sheetname='Ransomware')
-print(sheet)
+sheet = pd.read_excel(open(OUTPUTSHEET,'rb'), sheetname='Ransomware')
+
+output = open(JSONFILE, 'w')
+output.writelines(sheet.to_json())
