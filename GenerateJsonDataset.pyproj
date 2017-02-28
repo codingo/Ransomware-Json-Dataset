@@ -25,6 +25,9 @@
     <Compile Include="GoogleSpreadsheetToJson.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="prettyJSON.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
