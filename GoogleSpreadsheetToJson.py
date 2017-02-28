@@ -11,7 +11,7 @@ See: http://goo.gl/b9R8DE
 
 import urllib.request
 import pandas as pd
-from prettyJSON import jsonFormatter as formatJson
+from prettyJSON import formatInput as formatJson
 
 SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
 OUTPUTSHEET = 'RansomwareOverview.xlsx'
