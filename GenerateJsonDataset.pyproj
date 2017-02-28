@@ -22,10 +22,13 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GoogleSpreadsheetToJson.py">
+    <Compile Include="download_file.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="prettyJSON.py">
+    <Compile Include="update_json.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pretty_json.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
