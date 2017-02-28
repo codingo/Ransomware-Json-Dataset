@@ -3,6 +3,7 @@ A collection of resources to help in the detection, mitigation and prevention of
 
 ##JSON Dataset
 
+####Attribution / Credits
 JSON dataset work is based upon the many efforts of Mosh (@nyxbone) and @cyb3rops who manage the Ransomware Summary public spreadsheet that is co-hosted in this repository but originally sourced on Google docs at http://goo.gl/b9R8DE. Spreadsheet data remains the intellectual property of Mosh and is taken 'as-is' and processed into a JSON output to allow its use in various shell or programming operations. Spreadsheet is cloned within this repository for redundancy purposes.
 
 ###Updating the dataset
