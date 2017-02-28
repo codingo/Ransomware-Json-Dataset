@@ -247,3 +247,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/UpdateJsonDataset/__pycache__
