@@ -8,7 +8,6 @@ Mosh (@nyxbone) and @cyb3rops.
 See: http://goo.gl/b9R8DE
 '''
 
-
 import pandas as pd
 from pretty_json import formatInput as formatJson
 from download_file import download_file
