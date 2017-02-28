@@ -13,7 +13,7 @@ from download_file import download_file
 
 SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
 OUTPUTSHEET = '../RansomwareOverview.xlsx'
-JSONFILE = '../RansomwareOverview.json'
+JSONFILE = '../ransomware_overview.json'
 
 def write_json_file(json_data, filename):
     output = open(filename, 'w')
