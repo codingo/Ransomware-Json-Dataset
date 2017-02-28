@@ -15,9 +15,9 @@ SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdi
 OUTPUTSHEET = '../RansomwareOverview.xlsx'
 JSONFILE = '../RansomwareOverview.json'
 
-def write_json_file(input, filename):
+def write_json_file(json_data, filename):
     output = open(filename, 'w')
-    output.writelines(input)
+    output.writelines(json_data)
 
 def generate_json(source_file, download_destination, json_file):
     download_file(source_file, download_destination)
