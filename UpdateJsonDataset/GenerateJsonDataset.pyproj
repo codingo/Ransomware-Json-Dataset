@@ -28,7 +28,7 @@
     <Compile Include="update_json.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="generate_json.py">
+    <Compile Include="excel_to_json.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
