@@ -1,0 +1,3899 @@
+[
+    {
+        "name": [
+            ".CryptoHasYou."
+        ],
+        "extensions": ".enc",
+        "extensionPattern": "",
+        "ransomNoteFilenames": " YOUR_FILES_ARE_LOCKED.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/CryptoHasYou.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+.CryptoHasYou.",
+        "microsoftDetectionName": "Trojan:Win32/Dynamer!ac",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/entry.aspx?Name=Trojan%3AWin32%2FDynamer!ac",
+        "sandbox": "https://www.hybrid-analysis.com/sample/afd3394fb538b36d20085504b86000ea3969e0ae5da8e0c058801020ec8da67c?environmentId=4",
+        "iocs": "https://otx.alienvault.com/pulse/57180b18c1492d015c14bed8/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "777",
+            "Sevleg"
+        ],
+        "extensions": ".777",
+        "extensionPattern": "._[timestamp]_$[email]$.777\ne.g. ._14-05-2016-11-59-36_$ninja.gaiver@aol.com$.777",
+        "ransomNoteFilenames": "read_this_file.txt",
+        "comment": "",
+        "encryptionAlgorithm": "XOR",
+        "decryptor": "https://decrypter.emsisoft.com/777",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+777",
+        "microsoftDetectionName": "Ransom:Win32/Empercrypt.A",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/Encyclopedia/Entry.aspx?Name=Ransom:Win32/Empercrypt.A",
+        "sandbox": "https://www.hybrid-analysis.com/sample/2955d081ed9bca764f5037728125a7487f29925956f3095c58035919d50290b5?environmentId=4",
+        "iocs": "https://otx.alienvault.com/pulse/573b02701116a040ceccdd85/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "7ev3n",
+            "7ev3n-HONE$T"
+        ],
+        "extensions": ".R4A\n.R5A",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "FILES_BACK.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://github.com/hasherezade/malware_analysis/tree/master/7ev3n",
+        "resources": [
+            "http://www.nyxbone.com/malware/7ev3n-HONE$T.html\n"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+7ev3n",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/pulse/57180dbf0ebaa4015af21166/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "7h9r"
+        ],
+        "extensions": ".7h9r",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README_.TXT",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/7h9r.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+7h9r"
+    },
+    {
+        "name": [
+            "8lock8"
+        ],
+        "extensions": ".8lock8",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_IT.txt",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES (256)",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/614025/8lock8-help-support-topic-8lock8-read-ittxt/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+8lock8",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "https://www.hybrid-analysis.com/sample/90256220a513536b2a09520a1abb9b0f62efc89b873c645d3fd4a1f3ebed332d?environmentId=4",
+        "iocs": "https://www.hybrid-analysis.com/sample/d572a7d7254846adb73aebc3f7891398e513bdac9aac06231991e07e7b55fac8?environmentId=4",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Alfa Ransomware"
+        ],
+        "extensions": ".bin",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README HOW TO DECRYPT YOUR FILES.HTML",
+        "comment": "Made by creators of Cerber",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-alfa-or-alpha-ransomware-from-the-same-devs-as-cerber/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Alma Ransomware"
+        ],
+        "extensions": "random",
+        "extensionPattern": "random(x5)",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES(128)",
+        "decryptor": "https://cta-service-cms2.hubspot.com/ctas/v2/public/cs/c/?cta_guid=d4173312-989b-4721-ad00-8308fff353b3&placement_guid=22f2fe97-c748-4d6a-9e1e-ba3fb1060abe&portal_id=326665&redirect_url=APefjpGnqFjmP_xzeUZ1Y55ovglY1y1ch7CgMDLit5GTHcW9N0ztpnIE-ZReqqv8MDj687_4Joou7Cd2rSx8-De8uhFQAD_Len9QpT7Xvu8neW5drkdtTPV7hAaou0osAi2O61dizFXibewmpO60UUCd5OazCGz1V6yT_3UFMgL0x9S1VeOvoL_ucuER8g2H3f1EfbtYBw5QFWeUmrjk-9dGzOGspyn303k9XagBtF3SSX4YWSyuEs03Vq7Fxb04KkyKc4GJx-igK98Qta8iMafUam8ikg8XKPkob0FK6Pe-wRZ0QVWIIkM&hsutk=34612af1cd87864cf7162095872571d1&utm_referrer=https%3A%2F%2Finfo.phishlabs.com%2Fblog%2Falma-ransomware-analysis-of-a-new-ransomware-threat-and-a-decrypter&canon=https%3A%2F%2Finfo.phishlabs.com%2Fblog%2Falma-ransomware-analysis-of-a-new-ransomware-threat-and-a-decrypter&__hstc=61627571.34612af1cd87864cf7162095872571d1.1472135921345.1472140656779.1472593507113.3&__hssc=61627571.1.1472593507113&__hsfp=1114323283",
+        "resources": [
+            "https://info.phishlabs.com/blog/alma-ransomware-analysis-of-a-new-ransomware-threat-and-a-decrypter",
+            "http://www.bleepingcomputer.com/news/security/new-alma-locker-ransomware-being-distributed-via-the-rig-exploit-kit/"
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Alma+Ransomware",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Alpha Ransomware",
+            "AlphaLocker"
+        ],
+        "extensions": ".encrypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Read Me (How Decrypt) !!!!.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "http://download.bleepingcomputer.com/demonslay335/AlphaDecrypter.zip",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/decrypted-alpha-ransomware-continues-the-trend-of-accepting-amazon-cards/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Alpha+Ransomware"
+    },
+    {
+        "name": [
+            "AMBA"
+        ],
+        "extensions": ".amba",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "\u041f\u0420\u041e\u0427\u0422\u0418_\u041c\u0415\u041d\u042f.txt\nREAD_ME.txt",
+        "comment": "Websites only\namba@riseup.net",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/benkow_/status/747813034006020096"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+AMBA"
+    },
+    {
+        "name": [
+            "Angry Duck"
+        ],
+        "extensions": ".adk",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Demands 10 BTC",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-28-2016-locky-angry-duck-and-more/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Angry+Duck"
+    },
+    {
+        "name": [
+            "Apocalypse",
+            "Fabiansomeware"
+        ],
+        "extensions": ".encrypted\n.SecureCrypted\n.FuckYourData\n.unavailable\n.bleepYourFiles\n.Where_my_files.txt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "*.How_To_Decrypt.txt\n*.Contact_Here_To_Recover_Your_Files.txt\n*.Where_my_files.txt\n*.Read_Me.Txt",
+        "comment": "decryptionservice@mail.ru\nrecoveryhelp@bk.ru\nransomware.attack@list.ru\nesmeraldaencryption@mail.ru\ndr.compress@bk.ru",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/apocalypse",
+        "resources": [
+            "http://blog.emsisoft.com/2016/06/29/apocalypse-ransomware-which-targets-companies-through-insecure-rdp/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Apocalypse"
+    },
+    {
+        "name": [
+            "ApocalypseVM"
+        ],
+        "extensions": ".encrypted\n.locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "*.How_To_Get_Back.txt ",
+        "comment": "Apocalypse ransomware version which uses VMprotect",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://decrypter.emsisoft.com/download/apocalypsevm",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+ApocalypseVM",
+        "microsoftDetectionName": "Win32/Cribit",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32/Cribit",
+        "sandbox": "https://www.hybrid-analysis.com/sample/7d66e29649a09bf3edb61618a61fd7f9fb74013b739dfc4921eefece6c8439bb?environmentId=4",
+        "iocs": "https://otx.alienvault.com/pulse/57166d65c1492d015c14bcc4/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "AutoLocky"
+        ],
+        "extensions": ".locky",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "info.txt\ninfo.html",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/autolocky",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+AutoLocky",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BadBlock"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Help Decrypt.html",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/badblock",
+        "resources": [
+            "http://www.nyxbone.com/malware/BadBlock.html"
+        ],
+        "screenshots": "http://www.nyxbone.com/images/articulos/malware/badblock/5.png",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/pulse/56eac97aaef9214b1550b37e/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BaksoCrypt"
+        ],
+        "extensions": ".adr",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on my-Little-Ransomware",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/JakubKroustek/status/760482299007922176",
+            "https://0xc1r3ng.wordpress.com/2016/06/24/bakso-crypt-simple-ransomware/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Bandarchor",
+            "Rakhni"
+        ],
+        "extensions": "",
+        "extensionPattern": ".id-[ID]_[EMAIL_ADDRESS]",
+        "ransomNoteFilenames": "",
+        "comment": "Files might be partially encrypted",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://reaqta.com/2016/03/bandarchor-ransomware-still-active/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Bandarchor"
+    },
+    {
+        "name": [
+            "Bart",
+            "BaCrypt"
+        ],
+        "extensions": ".bart.zip\n.bart\n.perl",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "recover.txt\nrecover.bmp",
+        "comment": "Possible affiliations with RockLoader, Locky and Dridex",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://now.avg.com/barts-shenanigans-are-no-match-for-avg/",
+        "resources": [
+            "http://phishme.com/rockloader-downloading-new-ransomware-bart/",
+            "https://www.proofpoint.com/us/threat-insight/post/New-Bart-Ransomware-from-Threat-Actors-Spreading-Dridex-and-Locky"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Bart",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BitCryptor"
+        ],
+        "extensions": ".clf",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "\n",
+        "comment": "Has a GUI.\nCryptoGraphic Locker family. Newer CoinVault variant.",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://noransom.kaspersky.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+BitCryptor"
+    },
+    {
+        "name": [
+            "BitStak"
+        ],
+        "extensions": ".bitstak",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "Base64 + String Replacement",
+        "decryptor": "https://download.bleepingcomputer.com/demonslay335/BitStakDecrypter.zip",
+        "resources": [
+            ""
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BlackShades Crypter",
+            "SilentShade"
+        ],
+        "extensions": ".Silent",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Hacked_Read_me_to_decrypt_files.html\nYourID.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES (256)",
+        "decryptor": "",
+        "resources": [
+            "http://nyxbone.com/malware/BlackShades.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+BlackShades+Crypter",
+        "microsoftDetectionName": "Ransom:JS/Brolo",
+        "microsoftInfo": "www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:JS/Brolo",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=BlackShades+Crypter",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Blocatto"
+        ],
+        "extensions": ".blocatto",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES (256)",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/614456/bloccato-ransomware-bloccato-help-support-leggi-questo-filetxt/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Blocatto",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Blocatto",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Booyah",
+            "Salam!"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "EXE was replaced to neutralize threat",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Booyah",
+        "microsoftDetectionName": "Ransom: Win32/Cendode.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Cendode.A",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/pulse/5721628cce2199015fb2b101/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Brazilian"
+        ],
+        "extensions": ".lock",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "MENSAGEM.txt",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/brazilianRansom.html"
+        ],
+        "screenshots": "http://www.nyxbone.com/images/articulos/malware/brazilianRansom/0.png",
+        "microsoftDetectionName": "Win32/Cerber",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/Encyclopedia/Entry.aspx?Name=Win32/Cerber",
+        "sandbox": "https://www.hybrid-analysis.com/sample/a375201f22b6e71d8ea0f81266242e4638e1754aeee14059e9c5e39026d6c710?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=Brazilian",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BrLock"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "https://www.proofpoint.com/us/threat-insight/post/ransomware-explosion-continues-cryptflle2-brlock-mm-locker-discovered"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+BrLock",
+        "microsoftDetectionName": "Win32/Chicrypt ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32/Chicrypt",
+        "sandbox": "https://www.hybrid-analysis.com/sample/a375201f22b6e71d8ea0f81266242e4638e1754aeee14059e9c5e39026d6c710?environmentId=4",
+        "iocs": "https://otx.alienvault.com/pulse/572df3997740f10160c78d5c/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Browlock"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no local encryption, browser only",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Browlock",
+        "microsoftDetectionName": "Ransom: MSIL/Vaultlock.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:MSIL/Vaultlock.A",
+        "sandbox": "https://www.hybrid-analysis.com/sample/3ab7a35b31578b439be5d9498489b5e9d2a016db0a348a145979ed75f575dbef?environmentId=4",
+        "iocs": "https://otx.alienvault.com/pulse/55fabc314637f26df7745efc/",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Bucbi"
+        ],
+        "extensions": "",
+        "extensionPattern": "\n",
+        "ransomNoteFilenames": "",
+        "comment": "no file name change, no extension",
+        "encryptionAlgorithm": "GOST",
+        "decryptor": "",
+        "resources": [
+            "http://researchcenter.paloaltonetworks.com/2016/05/unit42-bucbi-ransomware-is-back-with-a-ukrainian-makeover/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Bucbi",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Bucbi",
+        "snort": ""
+    },
+    {
+        "name": [
+            "BuyUnlockCode"
+        ],
+        "extensions": "",
+        "extensionPattern": "(.*).encoded.([A-Z0-9]{9})",
+        "ransomNoteFilenames": "BUYUNLOCKCODE.txt",
+        "comment": "Does not delete Shadow Copies",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+BuyUnlockCode",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Central Security Treatment Organization"
+        ],
+        "extensions": ".cry",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "!Recovery_[random_chars].html\n!Recovery_[random_chars].txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/625820/central-security-treatment-organization-ransomware-help-topic-cry-extension/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Central+Security+Treatment+Organization"
+    },
+    {
+        "name": [
+            "Cerber"
+        ],
+        "extensions": ".cerber\n.cerber2\n.cerber3",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "# DECRYPT MY FILES #.html\n# DECRYPT MY FILES #.txt\n# DECRYPT MY FILES #.vbs\n# README.hta",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/03/cerber-ransomware-new-but-mature/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Cerber",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Chimera"
+        ],
+        "extensions": ".crypt\n4 random characters, e.g., .PzZs, .MKJL",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "YOUR_FILES_ARE_ENCRYPTED.HTML\nYOUR_FILES_ARE_ENCRYPTED.TXT\n<random>.gif",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.bleepingcomputer.com/news/security/chimera-ransomware-decryption-keys-released-by-petya-devs/",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2015/12/inside-chimera-ransomware-the-first-doxingware-in-wild/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Chimera",
+        "microsoftDetectionName": "Ransom: Win32/Crowti ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Crowti",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Chimera",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CoinVault"
+        ],
+        "extensions": ".clf",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "wallpaper.jpg ",
+        "comment": "CryptoGraphic Locker family. \nHas a GUI.\nDo not confuse with CrypVault!",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://noransom.kaspersky.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CoinVault",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CoinVault",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Coverton"
+        ],
+        "extensions": ".coverton\n.enigma\n.czvxce",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "!!!-WARNING-!!!.html\n!!!-WARNING-!!!.txt\n",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/paying-the-coverton-ransomware-may-not-get-your-data-back/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Coverton",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Coverton",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Cryaki"
+        ],
+        "extensions": ".{CRYPTENDBLACKDC}",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Cryaki",
+        "microsoftDetectionName": "Ransom: Win32/Crowti \nWin32/Fortrypt ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Crowti\nhttps://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32/Fortrypt",
+        "sandbox": "https://www.hybrid-analysis.com/sample/e12405096f83b30b712d200b2fc42ce595e1d1254a631d989714b4fa423ef4c4?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=Cryaki",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Crybola"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Crybola",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Crybola",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryFile"
+        ],
+        "extensions": ".criptiko\n.criptoko\n.criptokod\n.cripttt\n.aga",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "SHTODELATVAM.txt\nInstructionaga.txt",
+        "comment": "",
+        "encryptionAlgorithm": "Moves bytes",
+        "decryptor": "http://virusinfo.info/showthread.php?t=185396",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryFile"
+    },
+    {
+        "name": [
+            "Cry",
+            " CSTO",
+            " Central Security Treatment Organization",
+            "CryLocker"
+        ],
+        "extensions": ".cry",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Identifies victim locations w/Google Maps API",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-crylocker-ransomware-communicates-using-udp-and-stores-data-on-imgur-com/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryLocker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryLocker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CrypMIC"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README.TXT\nREADME.HTML\nREADME.BMP",
+        "comment": "CryptXXX clone/spinoff",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/crypmic-ransomware-wants-to-follow-cryptxxx/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CrypMIC"
+    },
+    {
+        "name": [
+            "Crypren"
+        ],
+        "extensions": ".ENCRYPTED",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_THIS_TO_DECRYPT.html",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://github.com/pekeinfo/DecryptCrypren",
+        "resources": [
+            "http://www.nyxbone.com/malware/Crypren.html"
+        ],
+        "screenshots": "http://www.nyxbone.com/images/articulos/malware/crypren/0.png"
+    },
+    {
+        "name": [
+            "Crypt38"
+        ],
+        "extensions": ".crypt38",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "https://download.bleepingcomputer.com/demonslay335/Crypt38Keygen.zip",
+        "resources": [
+            "https://blog.fortinet.com/2016/06/17/buggy-russian-ransomware-inadvertently-allows-free-decryption"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Crypt38",
+        "microsoftDetectionName": "Ransom: Win32/Crilock.A",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom%3aWin32%2fCrilock.A",
+        "sandbox": "https://www.hybrid-analysis.com/sample/0348cdd333879d139306c3ff510b902013739c6bb244e20bcc5a4f762004d354?environmentId=1",
+        "iocs": "https://otx.alienvault.com/browse?q=Crypt38",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Cryptear",
+            "Hidden Tear"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "http://www.utkusen.com/blog/dealing-with-script-kiddies-cryptear-b-incident.html",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Cryptear"
+    },
+    {
+        "name": [
+            "CryptFIle2"
+        ],
+        "extensions": ".scl",
+        "extensionPattern": "id[_ID]email_xerx@usa.com.scl",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "RSA",
+        "decryptor": "",
+        "resources": [
+            "https://www.proofpoint.com/us/threat-insight/post/ransomware-explosion-continues-cryptflle2-brlock-mm-locker-discovered"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptFIle2"
+    },
+    {
+        "name": [
+            "CryptInfinite"
+        ],
+        "extensions": ".crinf",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptInfinite"
+    },
+    {
+        "name": [
+            "CryptoBit"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "OKSOWATHAPPENDTOYOURFILES.TXT",
+        "comment": "sekretzbel0ngt0us.KEY\ndo not confuse with CryptorBit",
+        "encryptionAlgorithm": "AES and RSA",
+        "decryptor": "",
+        "resources": [
+            "http://www.pandasecurity.com/mediacenter/panda-security/cryptobit/",
+            "http://news.softpedia.com/news/new-cryptobit-ransomware-could-be-decryptable-503239.shtml"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoBit",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoBit",
+        "snort": "https://www.snort.org/search?query=cryptolocker&submit_search="
+    },
+    {
+        "name": [
+            "CryptoDefense"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HOW_DECRYPT.TXT\nHOW_DECRYPT.HTML\nHOW_DECRYPT.URL",
+        "comment": "no extension change",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoDefense",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoDefense",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptoFinancial",
+            "Ranscam"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://blog.talosintel.com/2016/07/ranscam.html",
+            "https://nakedsecurity.sophos.com/2016/07/13/ransomware-that-demands-money-and-gives-you-back-nothing/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "CryptoFortress"
+        ],
+        "extensions": ".frtrss",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ IF YOU WANT YOUR FILES BACK.html",
+        "comment": "Mimics Torrentlocker. Encrypts only 50% of each file up to 5 MB",
+        "encryptionAlgorithm": "AES (256), RSA (1024)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoFortress"
+    },
+    {
+        "name": [
+            "CryptoGraphic Locker"
+        ],
+        "extensions": ".clf",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "wallpaper.jpg",
+        "comment": "Has a GUI.\nSubvariants: CoinVault\nBitCryptor",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoGraphic+Locker",
+        "microsoftDetectionName": "Ransom: MSIL/Nojocrypt.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:MSIL/Nojocrypt.A",
+        "sandbox": "https://www.hybrid-analysis.com/sample/cddf81997b81869ad471df6b83c2dfe63a2551f4da9bdd57bce30b8d11e61e5b?environmentId=5",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoGraphic+Locker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Manamecrypt",
+            " Telograph",
+            " ROI Locker",
+            "CryptoHost"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "RAR's victim's files\nhas a GUI",
+        "encryptionAlgorithm": "AES(256) (RAR implementation)",
+        "decryptor": "http://www.bleepingcomputer.com/news/security/cryptohost-decrypted-locks-files-in-a-password-protected-rar-file/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoHost",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoHost",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptoJoker"
+        ],
+        "extensions": ".crjoker",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README!!!.txt\nGetYouFiles.txt\ncrjoker.html",
+        "comment": "",
+        "encryptionAlgorithm": "AES-256",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoJoker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoJoker",
+        "snort": "https://www.snort.org/search?query=ctb-locker"
+    },
+    {
+        "name": [
+            "CryptoLocker"
+        ],
+        "extensions": ".encrypted \n.ENC",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no longer relevant",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://www.fireeye.com/blog/executive-perspective/2014/08/your-locker-of-information-for-cryptolocker-decryption.html",
+        "resources": [
+            "https://reaqta.com/2016/04/uncovering-ransomware-distribution-operation-part-2/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoLocker"
+    },
+    {
+        "name": [
+            "CryptoLuck / YafunnLocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "[A-F0-9]{8}_luck",
+        "ransomNoteFilenames": "%AppData%\\@WARNING_FILES_ARE_ENCRYPTED.[victim_id].txt.",
+        "comment": "via RIG EK",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/cryptoluck-ransomware-being-malvertised-via-rig-e-exploit-kits/",
+            "https://twitter.com/malwareforme/status/798258032115322880"
+        ],
+        "screenshots": "https://twitter.com/malwareforme/status/798258032115322880"
+    },
+    {
+        "name": [
+            "CryptoMix",
+            "Zeta"
+        ],
+        "extensions": ".code\n.scl",
+        "extensionPattern": ".id_(ID_MACHINE)_email_xoomx@dr.com_.code\n.id_*_email_zeta@dr.com\n.id_(ID_MACHINE)_email_anx@dr.com_.scl",
+        "ransomNoteFilenames": "HELP_YOUR_FILES.html (CryptXXX)\nHELP_YOUR_FILES.txt (CryptoWall 3.0, 4.0)",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/CryptoMix.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoMix"
+    },
+    {
+        "name": [
+            "CryptoRoger"
+        ],
+        "extensions": ".crptrgr",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "!Where_are_my_files!.html",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-ransomware-called-cryptoroger-that-appends-crptrgr-to-encrypted-files/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoRoger"
+    },
+    {
+        "name": [
+            "CryptoShocker"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ATTENTION.url",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/617601/cryptoshocker-ransomware-help-and-support-topic-locked-attentionurl/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoShocker"
+    },
+    {
+        "name": [
+            "CryptoTorLocker2015"
+        ],
+        "extensions": ".CryptoTorLocker2015!",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HOW TO DECRYPT FILES.txt\n%Temp%\\<random>.bmp",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/565020/new-cryptotorlocker2015-ransomware-discovered-and-easily-decrypted/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoTorLocker2015"
+    },
+    {
+        "name": [
+            "CryptoWall 1"
+        ],
+        "extensions": "",
+        "extensionPattern": "no filename change",
+        "ransomNoteFilenames": "DECRYPT_INSTRUCTION.HTML\nDECRYPT_INSTRUCTION.TXT\nDECRYPT_INSTRUCTION.URL\nINSTALL_TOR.URL",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoWall+1",
+        "microsoftDetectionName": "Ransom: Win32/DMALocker ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/DMALocker",
+        "sandbox": "https://www.hybrid-analysis.com/sample/053369b3b63fe08c74d0269e9c29efde3500860f0394cbf6840d57032dea5b12?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoWall+1",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptoWall 2"
+        ],
+        "extensions": "",
+        "extensionPattern": "no filename change",
+        "ransomNoteFilenames": "HELP_DECRYPT.TXT\nHELP_DECRYPT.PNG\nHELP_DECRYPT.URL\nHELP_DECRYPT.HTML\n",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoWall+2",
+        "microsoftDetectionName": "Ransom: Win32/DMALocker.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/DMALocker.A",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoWall+2",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptoWall 3"
+        ],
+        "extensions": "",
+        "extensionPattern": "no filename change",
+        "ransomNoteFilenames": "HELP_DECRYPT.TXT\nHELP_DECRYPT.PNG\nHELP_DECRYPT.URL\nHELP_DECRYPT.HTML\n",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoWall+3"
+    },
+    {
+        "name": [
+            "CryptoWall 4"
+        ],
+        "extensions": "",
+        "extensionPattern": "<random>.<random>, e.g.,\n27p9k967z.x1nep",
+        "ransomNoteFilenames": "HELP_YOUR_FILES.HTML\nHELP_YOUR_FILES.PNG\n",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptoWall+4",
+        "microsoftDetectionName": "Ransom: MSIL/Ryzerlo ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:MSIL/Ryzerlo",
+        "sandbox": "https://www.hybrid-analysis.com/sample/d44a5f262ccb43f72ee2afde3e3ff2a55bbb3db5837bfa8aac2e8d7195014d8b?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptoWall+4",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptXXX",
+            "CryptProjectXXX"
+        ],
+        "extensions": ".crypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "de_crypt_readme.bmp, .txt, .html",
+        "comment": "Comes with Bedep",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptXXX",
+        "microsoftDetectionName": "Ransom: PowerShell/Polock.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/entry.aspx?Name=Ransom:PowerShell/Polock.A&ThreatID=-2147272113#tab=2",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptXXX",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptXXX 2.0",
+            "CryptProjectXXX"
+        ],
+        "extensions": ".crypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "<personal-ID>.txt, .html, .bmp",
+        "comment": "Locks screen. Ransom note names are an ID.\nComes with Bedep.",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            "https://www.proofpoint.com/us/threat-insight/post/cryptxxx2-ransomware-authors-strike-back-against-free-decryption-tool",
+            "http://blogs.cisco.com/security/cryptxxx-technical-deep-dive"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptXXX+2.0",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CryptXXX+2.0",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CryptXXX 3.0",
+            "UltraDeCrypter\nUltraCrypter"
+        ],
+        "extensions": ".crypt\n.cryp1\n.crypz\n.cryptz\nrandom",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Comes with Bedep",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/cryptxxx-updated-to-version-3-0-decryptors-no-longer-work/",
+            "http://blogs.cisco.com/security/cryptxxx-technical-deep-dive"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptXXX+3.0"
+    },
+    {
+        "name": [
+            "CryptXXX 3.1"
+        ],
+        "extensions": ".cryp1",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "StilerX credential stealing",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://www.proofpoint.com/us/threat-insight/post/cryptxxx-ransomware-learns-samba-other-new-tricks-with-version3100"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CryptXXX+3.1"
+    },
+    {
+        "name": [
+            "CTB-Faker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/ctb-faker-ransomware-does-a-poor-job-imitating-ctb-locker/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CTB-Faker"
+    },
+    {
+        "name": [
+            "CTB-Locker",
+            "Citroni"
+        ],
+        "extensions": ".ctbl\n",
+        "extensionPattern": ".([a-z]{6,7})",
+        "ransomNoteFilenames": "AllFilesAreLocked <user_id>.bmp\nDecryptAllFiles <user_id>.txt\n<random>.html\n",
+        "comment": "",
+        "encryptionAlgorithm": "RSA(2048)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CTB-Locker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CTB-Locker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CTB-Locker WEB"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "websites only",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://thisissecurity.net/2016/02/26/a-lockpicking-exercise/",
+            "https://github.com/eyecatchup/Critroni-php"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CTB-Locker+WEB",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CTB-Locker+WEB",
+        "snort": ""
+    },
+    {
+        "name": [
+            "CuteRansomware",
+            "my-Little-Ransomware"
+        ],
+        "extensions": ".\u5df2\u52a0\u5bc6\n.encrypted",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "\u4f60\u7684\u6a94\u6848\u88ab\u6211\u5011\u52a0\u5bc6\u5566!!!.txt\nYour files encrypted by our friends !!! txt",
+        "comment": "Based on my-Little-Ransomware",
+        "encryptionAlgorithm": "AES(128)",
+        "decryptor": "https://github.com/aaaddress1/my-Little-Ransomware/tree/master/decryptoTool",
+        "resources": [
+            "https://github.com/aaaddress1/my-Little-Ransomware"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+CuteRansomware",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=CuteRansomware",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Dharma"
+        ],
+        "extensions": ".dharma\n.wallet\n.zzzzz",
+        "extensionPattern": ".<email>.(dharma|wallet|zzzzz)",
+        "ransomNoteFilenames": "README.txt\nREADME.jpg",
+        "comment": "CrySiS variant",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Deadly for a Good Purpose"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Encrypts in 2017",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-14-2016-exotic-lockydump-comrade-and-more/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Deadly+for+a+Good+Purpose"
+    },
+    {
+        "name": [
+            "DeCrypt Protect"
+        ],
+        "extensions": ".html",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.malwareremovalguides.info/decrypt-files-with-decrypt_mblblock-exe-decrypt-protect/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DeCrypt+Protect",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=DeCrypt+Protect",
+        "snort": ""
+    },
+    {
+        "name": [
+            "DEDCryptor"
+        ],
+        "extensions": ".ded",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES-256",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/617395/dedcryptor-ded-help-support-topic/",
+            "http://www.nyxbone.com/malware/DEDCryptor.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DEDCryptor",
+        "microsoftDetectionName": "Trojan: Win32/Harasom.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Trojan:Win32/Harasom.A",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=DEDCryptor",
+        "snort": ""
+    },
+    {
+        "name": [
+            "DetoxCrypto",
+            "Based on Detox:\nCalipso\nWe are all Pokemons\nNullbyte"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-detoxcrypto-ransomware-pretends-to-be-pokemongo-or-uploads-a-picture-of-your-screen/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DetoxCrypto"
+    },
+    {
+        "name": [
+            "DirtyDecrypt"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/demonslay335/status/752586334527709184"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DirtyDecrypt"
+    },
+    {
+        "name": [
+            "DMALocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "cryptinfo.txt\ndecrypting.txt\nstart.txt",
+        "comment": "no extension change\nEncrypted files have prefix:\nVersion 1: ABCXYZ11\nVersion 2: !DMALOCK\nVersion 3: !DMALOCK3.0\nVersion 4: !DMALOCK4.0\n",
+        "encryptionAlgorithm": "AES(256) in ECB mode, \nVersion 2-4 also RSA",
+        "decryptor": "https://decrypter.emsisoft.com/\nhttps://github.com/hasherezade/dma_unlocker",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/02/dma-locker-a-new-ransomware-but-no-reason-to-panic/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DMALocker"
+    },
+    {
+        "name": [
+            "DMALocker 3.0"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no extension change",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/02/dma-locker-strikes-back/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+DMALocker+3.0"
+    },
+    {
+        "name": [
+            "Domino"
+        ],
+        "extensions": ".domino",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README_TO_RECURE_YOUR_FILES.txt",
+        "comment": "Based on Hidden Tear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/Domino.html",
+            "http://www.bleepingcomputer.com/news/security/the-curious-case-of-the-domino-ransomware-a-windows-crack-and-a-cow/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "EDA2 / HiddenTear",
+            "Cryptear"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Open sourced C#",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+EDA2+/+HiddenTear"
+    },
+    {
+        "name": [
+            "EduCrypt",
+            "EduCrypter"
+        ],
+        "extensions": ".isis\n.locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README.txt",
+        "comment": "Based on Hidden Tear",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.filedropper.com/decrypter_1",
+        "resources": [
+            "https://twitter.com/JakubKroustek/status/747031171347910656"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+EduCrypt",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=EduCrypt",
+        "snort": ""
+    },
+    {
+        "name": [
+            "El-Polocker",
+            "Los Pollos Hermanos"
+        ],
+        "extensions": ".ha3",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "qwer.html\nqwer2.html \nlocked.bmp\n",
+        "comment": "Has a GUI",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+El-Polocker",
+        "microsoftDetectionName": "Ransom: Win32/Tobfy.X ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Tobfy.X",
+        "sandbox": "https://www.hybrid-analysis.com/sample/1a6bed2afff1b9880e42a29cea9b8139bcb12e34085fb008de13aa983b82a4f2?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=El-Polocker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Encoder.xxxx",
+            "Trojan.Encoder.6491"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Instructions.html",
+        "comment": "Coded in GO",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-14-2016-exotic-lockydump-comrade-and-more/",
+            "http://vms.drweb.ru/virus/?_is=1&i=8747343"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Encoder.xxxx"
+    },
+    {
+        "name": [
+            "Enigma"
+        ],
+        "extensions": ".enigma\n.1txt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "enigma.hta\nenigma_encr.txt\nenigma_info.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES (128)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-enigma-ransomware-targets-russian-speaking-users/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Enigma",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Enigma",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Exotic"
+        ],
+        "extensions": ".exotic",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Also encrypts executables",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/eviltwins-exotic-ransomware-targets-executable-files/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Exotic"
+    },
+    {
+        "name": [
+            "Fairware"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Linux",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-fairware-ransomware-targeting-linux-computers/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Fairware"
+    },
+    {
+        "name": [
+            "Fakben"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ ME FOR DECRYPT.txt",
+        "comment": "Based on Hidden Tear",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://blog.fortinet.com/post/fakben-team-ransomware-uses-open-source-hidden-tear-code"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Fakben",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Fakben",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Fantom",
+            "Variants:\nComrade Circle"
+        ],
+        "extensions": ".fantom",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPT_YOUR_FILES.HTML\nRESTORE-FILES![id]",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(128)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/fantom-ransomware-encrypts-your-files-while-pretending-to-be-windows-update/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Fantom"
+    },
+    {
+        "name": [
+            "Fonco"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "help-file-decrypt.enc\n<startupfolder>/pronk.txt",
+        "comment": "contact email safefiles32@mail.ru also as prefix in encrypted file contents",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Fonco",
+        "microsoftDetectionName": "Ransom:MSIL/JigsawLocker.A",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/Encyclopedia/Entry.aspx?Name=Ransom:MSIL/JigsawLocker.A",
+        "sandbox": "https://www.hybrid-analysis.com/sample/3ae96f73d805e1d3995253db4d910300d8442ea603737a1428b613061e7f61e7?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=Fonco",
+        "snort": ""
+    },
+    {
+        "name": [
+            "FSociety"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-fsociety-ransomware-pays-homage-to-mr-robot/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+FSociety"
+    },
+    {
+        "name": [
+            "Fury"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Fury",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Fury",
+        "snort": ""
+    },
+    {
+        "name": [
+            "GhostCrypt"
+        ],
+        "extensions": ".Z81928819",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on Hidden Tear",
+        "encryptionAlgorithm": "AES (256)",
+        "decryptor": "https://download.bleepingcomputer.com/demonslay335/GhostCryptDecrypter.zip",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/614197/ghostcrypt-z81928819-help-support-topic-read-this-filetxt/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+GhostCrypt",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=GhostCrypt",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Globe v1",
+            "Purge"
+        ],
+        "extensions": ".purge",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "How to restore files.hta",
+        "comment": "",
+        "encryptionAlgorithm": "Blowfish",
+        "decryptor": "https://success.trendmicro.com/portal_kb_articledetail?solutionid=1114221",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-globe-ransomware-wants-to-purge-your-files/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Globe+v1"
+    },
+    {
+        "name": [
+            "Globe v2",
+            "Purge"
+        ],
+        "extensions": "",
+        "extensionPattern": ".<email>.<random>\ne.g.: .7076.docx.okean-1955@india.com.!dsvgdfvdDVGR3SsdvfEF75sddf#xbkNY45fg6}P{cg",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "Blowfish",
+        "decryptor": "https://success.trendmicro.com/portal_kb_articledetail?solutionid=1114221",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Globe+v2"
+    },
+    {
+        "name": [
+            "Globe v3",
+            "Purge"
+        ],
+        "extensions": ".globe or random",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Extesion depends on the config file. It seems Globe is a ransomware kit.",
+        "encryptionAlgorithm": "RC4",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Globe+v3"
+    },
+    {
+        "name": [
+            "Variants",
+            " from old to latest:\nZyklon Locker\nWildFire locker\nHades Locker",
+            "GNL Locker"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "<ID>.locked, e.g.,\nbill.!ID!8MMnF!ID!.locked",
+        "ransomNoteFilenames": "UNLOCK_FILES_INSTRUCTIONS.html and .txt",
+        "comment": "Only encrypts DE or NL country",
+        "encryptionAlgorithm": "AES (256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/611342/gnl-locker-support-and-help-topic-locked-and-unlock-files-instructionshtml/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+GNL+Locker"
+    },
+    {
+        "name": [
+            "Gomasom"
+        ],
+        "extensions": ".crypt",
+        "extensionPattern": "!___[EMAILADDRESS]_.crypt",
+        "ransomNoteFilenames": "",
+        "comment": "no ransom note",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Gomasom"
+    },
+    {
+        "name": [
+            "Goopic"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Your files have been crypted.html",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/angler-shift-ek-landscape-new-crytpo-ransomware-activity/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Goopic",
+        "microsoftDetectionName": "Ransom: MacOS_X/KeRanger.A ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:MacOS_X/KeRanger.A",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Goopic",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Gopher"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "OS X ransomware (PoC)",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Gopher",
+        "microsoftDetectionName": "Ransom: Win32/Isda\nRansom: BAT/Xibow ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Isda\nhttps://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:BAT/Xibow",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Gopher",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Harasom"
+        ],
+        "extensions": ".html",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Harasom",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Harasom",
+        "snort": ""
+    },
+    {
+        "name": [
+            "HDDCryptor",
+            "Mamba"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Uses https://diskcryptor.net for full disk encryption",
+        "encryptionAlgorithm": "Custom (net shares), XTS-AES (disk)",
+        "decryptor": "",
+        "resources": [
+            "https://www.linkedin.com/pulse/mamba-new-full-disk-encryption-ransomware-family-member-marinho",
+            "blog.trendmicro.com/trendlabs-security-intelligence/bksod-by-ransomware-hddcryptor-uses-commercial-tools-to-encrypt-network-shares-and-lock-hdds/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+HDDCryptor"
+    },
+    {
+        "name": [
+            "Herbst"
+        ],
+        "extensions": ".herbst",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://blog.fortinet.com/2016/06/03/cooking-up-autumn-herbst-ransomware"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Herbst"
+    },
+    {
+        "name": [
+            "Hi Buddy!"
+        ],
+        "extensions": ".cry\n",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/hibuddy.html\n"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Hi+Buddy!",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Hi+Buddy!",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Hitler"
+        ],
+        "extensions": "",
+        "extensionPattern": "removes extensions",
+        "ransomNoteFilenames": "",
+        "comment": "Deletes files",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/development-version-of-the-hitler-ransomware-discovered/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Hitler"
+    },
+    {
+        "name": [
+            "HolyCrypt"
+        ],
+        "extensions": "(encrypted)",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-python-ransomware-called-holycrypt-discovered/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+HolyCrypt"
+    },
+    {
+        "name": [
+            "Hucky",
+            "Hungarian Locky (Hucky)"
+        ],
+        "extensions": ".locky",
+        "extensionPattern": "[a-zA-Z0-9+_-]{1,}.[a-z0-9]{3,4}.locky",
+        "ransomNoteFilenames": "_Adatok_visszaallitasahoz_utasitasok.txt\n_locky_recover_instructions.txt",
+        "comment": "Based on Locky",
+        "encryptionAlgorithm": "AES, RSA (hardcoded)",
+        "decryptor": "",
+        "resources": [
+            "https://blog.avast.com/hucky-ransomware-a-hungarian-locky-wannabe"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Hucky"
+    },
+    {
+        "name": [
+            "HydraCrypt"
+        ],
+        "extensions": "",
+        "extensionPattern": "hydracrypt_ID_[\\w]{8}",
+        "ransomNoteFilenames": "README_DECRYPT_HYRDA_ID_[ID number].txt",
+        "comment": "CrypBoss Family",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            "http://www.malware-traffic-analysis.net/2016/02/03/index2.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+HydraCrypt",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=HydraCrypt",
+        "snort": ""
+    },
+    {
+        "name": [
+            "iLock"
+        ],
+        "extensions": ".crime",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+iLock",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=iLock",
+        "snort": ""
+    },
+    {
+        "name": [
+            "iLockLight"
+        ],
+        "extensions": ".crime",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+iLockLight",
+        "microsoftDetectionName": "Ransom: Win32/Locky \nTrojanDownloader: JS/Locky \nTrojanDownloader: Win32/Locky ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:Win32/Locky\nhttps://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=TrojanDownloader:JS/Locky\nhttps://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=TrojanDownloader:Win32/Locky",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=iLockLight",
+        "snort": "https://www.snort.org/rule_docs/1-37844"
+    },
+    {
+        "name": [
+            "International Police Association"
+        ],
+        "extensions": "",
+        "extensionPattern": "<6 random characters>",
+        "ransomNoteFilenames": "%Temp%\\<random>.bmp",
+        "comment": "CryptoTorLocker2015 variant",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://download.bleepingcomputer.com/Nathan/StopPirates_Decrypter.exe",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+International+Police+Association",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "https://www.hybrid-analysis.com/sample/b7d9f11c166fa1a4ceef446dd9c8561c77115cb3ce4910a056dd6a361338a2b0?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=International+Police+Association",
+        "snort": ""
+    },
+    {
+        "name": [
+            "JagerDecryptor"
+        ],
+        "extensions": "!ENC",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Important_Read_Me.html",
+        "comment": "Prepends filenames",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/JakubKroustek/status/757873976047697920"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Encryptor RaaS",
+            " Sarento",
+            "Jeiphoos"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "readme_liesmich_encryptor_raas.txt",
+        "comment": "Windows, Linux. Campaign stopped. Actor claimed he deleted the master key.",
+        "encryptionAlgorithm": "RC6 (files), RSA 2048 (RC6 key)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/RaaS.html",
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/the-rise-and-fall-of-encryptor-raas/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Jeiphoos",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Jeiphoos",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Jigsaw",
+            "CryptoHitMan (subvariant)"
+        ],
+        "extensions": ".btc\n.kkk\n.fun\n.gws\n.porno\n.payransom\n.payms\n.paymst\n.AFD\n.paybtcs\n.epic\n.xyz",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Has a GUI",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "http://www.bleepingcomputer.com/news/security/jigsaw-ransomware-decrypted-will-delete-your-files-until-you-pay-the-ransom/",
+        "resources": [
+            "https://www.helpnetsecurity.com/2016/04/20/jigsaw-crypto-ransomware/\n"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Jigsaw",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Jigsaw",
+        "snort": "http://pastebin.com/0604rgUn\nhttp://pastebin.com/F6Pyqiqg"
+    },
+    {
+        "name": [
+            "Job Crypter"
+        ],
+        "extensions": ".locked\n.css",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Comment d\u00e9bloquer mes fichiers.txt\nReadme.txt",
+        "comment": "Based on HiddenTear, but uses TripleDES, decrypter is PoC",
+        "encryptionAlgorithm": "TripleDES",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/jobcrypter.html\nhttp://forum.malekal.com/jobcrypter-geniesanstravaille-extension-locked-crypto-ransomware-t54381.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Job+Crypter",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Job+Crypter",
+        "snort": ""
+    },
+    {
+        "name": [
+            "KeRanger"
+        ],
+        "extensions": ".encrypted",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "OS X Ransomware",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "http://news.drweb.com/show/?i=9877&lng=en&c=5",
+        "resources": [
+            "http://www.welivesecurity.com/2016/03/07/new-mac-ransomware-appears-keranger-spread-via-transmission-app/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KeRanger",
+        "microsoftDetectionName": "Win32/Takabum",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32/Takabum",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=KeRanger",
+        "snort": ""
+    },
+    {
+        "name": [
+            "KeyBTC"
+        ],
+        "extensions": "keybtc@inbox_com\n",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPT_YOUR_FILES.txt\nREAD.txt\nreadme.txt\n",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KeyBTC",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=KeyBTC",
+        "snort": ""
+    },
+    {
+        "name": [
+            "KEYHolder"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "how_decrypt.gif\nhow_decrypt.html\n",
+        "comment": "via remote attacker.\ntuyuljahat@hotmail.com contact address",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/559463/keyholder-ransomware-support-and-help-topic-how-decryptgifhow-decrypthtml"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KEYHolder",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=KEYHolder",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Killer Locker"
+        ],
+        "extensions": ".rip",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Possibly Portuguese dev",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/malwrhunterteam/status/782232299840634881"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Killer+Locker"
+    },
+    {
+        "name": [
+            "KimcilWare"
+        ],
+        "extensions": ".kimcilware\n.locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "websites only",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "https://blog.fortinet.com/post/kimcilware-ransomware-how-to-decrypt-encrypted-files-and-who-is-behind-it",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-kimcilware-ransomware-targets-web-sites-running-the-magento-platform/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KimcilWare"
+    },
+    {
+        "name": [
+            "Korean"
+        ],
+        "extensions": ".\uc554\ud638\ud654\ub428",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ReadMe.txt",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/koreanRansom.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Korean"
+    },
+    {
+        "name": [
+            "Kostya"
+        ],
+        "extensions": ".kostya",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-14-2016-exotic-lockydump-comrade-and-more/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Kostya"
+    },
+    {
+        "name": [
+            "Kozy.Jozy",
+            "QC"
+        ],
+        "extensions": ".31392E30362E32303136_[ID-KEY]_LSBJ1",
+        "extensionPattern": ".([0-9A-Z]{20})_([0-9]{2})_([A-Z0-9]{4,5})",
+        "ransomNoteFilenames": "w.jpg",
+        "comment": "Potential Kit\nselectedkozy.jozy@yahoo.com\nkozy.jozy@yahoo.com\nunlock92@india.com",
+        "encryptionAlgorithm": "RSA(2048)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/KozyJozy.html",
+            "http://www.bleepingcomputer.com/forums/t/617802/kozyjozy-ransomware-help-support-wjpg-31392e30362e32303136-num-lsbj1/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Kozy.Jozy"
+    },
+    {
+        "name": [
+            "KratosCrypt"
+        ],
+        "extensions": ".kratos",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README_ALL.html",
+        "comment": "kratosdimetrici@gmail.com",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/demonslay335/status/746090483722686465"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KratosCrypt"
+    },
+    {
+        "name": [
+            "KryptoLocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "KryptoLocker_README.txt",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+KryptoLocker",
+        "microsoftDetectionName": "JS/Nemucod ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=JS/Nemucod",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=KryptoLocker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "LeChiffre"
+        ],
+        "extensions": ".LeChiffre",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "How to decrypt LeChiffre files.html",
+        "comment": "Encrypts first 0x2000 and last 0x2000 bytes.\nVia remote attacker",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://decrypter.emsisoft.com/lechiffre",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/01/lechiffre-a-manually-run-ransomware/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+LeChiffre",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=LeChiffre",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Linux.Encoder.{0",
+            "3}",
+            "Linux.Encoder"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Linux Ransomware",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://labs.bitdefender.com/2015/11/linux-ransomware-debut-fails-on-predictable-encryption-key/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Linux.Encoder",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Linux.Encoder",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Locker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no extension change\nhas GUI",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/577246/locker-ransomware-support-and-help-topic/page-32#entry3721545",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Locker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Locker",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Locky"
+        ],
+        "extensions": ".locky\n.zepto\n.odin\n.shit\n.thor\n.asier\n.zzzzz\n.osiris",
+        "extensionPattern": "([A-F0-9]{32}).locky\n([A-F0-9]{32}).zepto\n([A-F0-9]{32}).odin\n([A-F0-9]{32}).shit\n([A-F0-9]{32}).thor\n([A-F0-9]{32}).aesir\n([A-F0-9]{32}).zzzzz\n([A-F0-9]{32}).osiris",
+        "ransomNoteFilenames": "_Locky_recover_instructions.txt\n_Locky_recover_instructions.bmp\n_HELP_instructions.txt\n_HELP_instructions.bmp\n_HOWDO_text.html\n_WHAT_is.html\n_INSTRUCTION.html\nDesktopOSIRIS.(bmp|htm)\nOSIRIS-[0-9]{4}.htm",
+        "comment": "Affiliations with Dridex and Necurs botnets",
+        "encryptionAlgorithm": "AES(128)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-locky-version-adds-the-zepto-extension-to-encrypted-files/",
+            "WSF variant:\nhttp://blog.trendmicro.com/trendlabs-security-intelligence/new-locky-ransomware-spotted-in-the-brazilian-underground-market-uses-windows-script-files/\n\nOdin:\nhttps://nakedsecurity.sophos.com/2016/10/06/odin-ransomware-takes-over-from-zepto-and-locky/\n\nOSIRIS:\nhttps://www.bleepingcomputer.com/news/security/locky-ransomware-switches-to-egyptian-mythology-with-the-osiris-extension/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Locky",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Locky",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Lock93"
+        ],
+        "extensions": ".lock93",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-28-2016-locky-angry-duck-and-more/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Lock93"
+    },
+    {
+        "name": [
+            "Lortok"
+        ],
+        "extensions": ".crime",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Lortok",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Lortok",
+        "snort": ""
+    },
+    {
+        "name": [
+            "LowLevel04"
+        ],
+        "extensions": "oor.",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Prepends filenames",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+LowLevel04",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=LowLevel04",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Mabouia"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "OS X ransomware (PoC)",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Mabouia"
+    },
+    {
+        "name": [
+            "Magic"
+        ],
+        "extensions": ".magic",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPT_ReadMe1.TXT\nDECRYPT_ReadMe.TXT",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Magic"
+    },
+    {
+        "name": [
+            "MaktubLocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "[a-z]{4,6}",
+        "ransomNoteFilenames": "_DECRYPT_INFO_[extension pattern].html",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256), RSA (2048)",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/03/maktub-locker-beautiful-and-dangerous/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+MaktubLocker"
+    },
+    {
+        "name": [
+            "MIRCOP",
+            "Crypt888"
+        ],
+        "extensions": "Lock.",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Prepends files\nDemands 48.48 BTC",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/618457/microcop-ransomware-help-support-lock-mircop/",
+        "resources": [
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/instruction-less-ransomware-mircop-channels-guy-fawkes/",
+            "http://www.nyxbone.com/malware/Mircop.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+MIRCOP",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=MIRCOP",
+        "snort": "https://www.snort.org/search?query=Petya&submit_search="
+    },
+    {
+        "name": [
+            "MireWare"
+        ],
+        "extensions": ".fucked, .fuck",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_IT.txt",
+        "comment": "Based on HiddenTear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+MireWare"
+    },
+    {
+        "name": [
+            "Mischa",
+            "\"Petya's little brother\""
+        ],
+        "extensions": "",
+        "extensionPattern": ".([a-zA-Z0-9]{4})",
+        "ransomNoteFilenames": "YOUR_FILES_ARE_ENCRYPTED.HTML\nYOUR_FILES_ARE_ENCRYPTED.TXT ",
+        "comment": "Packaged with Petya\nPDFBewerbungsmappe.exe",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/petya-is-back-and-with-a-friend-named-mischa-ransomware/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Mischa",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Mischa",
+        "snort": ""
+    },
+    {
+        "name": [
+            "MM Locker",
+            "Booyah"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_IT.txt",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://www.proofpoint.com/us/threat-insight/post/ransomware-explosion-continues-cryptflle2-brlock-mm-locker-discovered"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+MM+Locker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "http://www.enigmasoftware.com/prismyourcomputerhasbeenlockedransomware-removal/",
+        "snort": "http://seclists.org/snort/2013/q3/900"
+    },
+    {
+        "name": [
+            "Mobef",
+            "Yakes\nCryptoBit"
+        ],
+        "extensions": ".KEYZ\n.KEYH0LES",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "4-14-2016-INFECTION.TXT\nIMPORTANT.README",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://nyxbone.com/malware/Mobef.html",
+            "http://researchcenter.paloaltonetworks.com/2016/07/unit42-cryptobit-another-ransomware-family-gets-an-update/"
+        ],
+        "screenshots": "http://nyxbone.com/images/articulos/malware/mobef/0.png",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Mobef",
+        "snort": ""
+    },
+    {
+        "name": [
+            "n1n1n1"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "decrypt explanations.html",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-28-2016-locky-angry-duck-and-more/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+n1n1n1"
+    },
+    {
+        "name": [
+            "Nagini"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Looks for C:\\Temp\\voldemort.horcrux",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-nagini-ransomware-sics-voldemort-on-your-files/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Nagini"
+    },
+    {
+        "name": [
+            "NanoLocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ATTENTION.RTF",
+        "comment": "no extension change\nhas a GUI",
+        "encryptionAlgorithm": "AES (256), RSA",
+        "decryptor": "http://github.com/Cyberclues/nanolocker-decryptor",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+NanoLocker"
+    },
+    {
+        "name": [
+            "Nemucod"
+        ],
+        "extensions": ".crypted",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Decrypted.txt",
+        "comment": "7zip (a0.exe) variant cannot be decrypted\nEncrypts the first 2048 Bytes",
+        "encryptionAlgorithm": "XOR(255)\n7zip",
+        "decryptor": "https://decrypter.emsisoft.com/\nhttps://github.com/Antelox/NemucodFR",
+        "resources": [
+            "https://blog.cisecurity.org/malware-analysis-report-nemucod-ransomware/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Nemucod",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Nemucod",
+        "snort": ""
+    },
+    {
+        "name": [
+            "NoobCrypt"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/JakubKroustek/status/757267550346641408"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+NoobCrypt"
+    },
+    {
+        "name": [
+            "ODCODC"
+        ],
+        "extensions": ".odcodc",
+        "extensionPattern": "C-email-abennaki@india.com-(NOMBRE_ARCHIVO.ext).odcodc",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "XOR",
+        "decryptor": "http://download.bleepingcomputer.com/BloodDolly/ODCODCDecoder.zip",
+        "resources": [
+            "http://www.nyxbone.com/malware/odcodc.html"
+        ],
+        "screenshots": "http://www.nyxbone.com/images/articulos/malware/odcodc/1c.png",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=ODCODC",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Vipasana",
+            " Cryakl",
+            "Offline ransomware"
+        ],
+        "extensions": ".cbf",
+        "extensionPattern": "email-[params].cbf",
+        "ransomNoteFilenames": "desk.bmp\ndesk.jpg\n",
+        "comment": "email addresses overlap with .777 addresses",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            "http://bartblaze.blogspot.com.co/2016/02/vipasana-ransomware-new-ransom-on-block.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Offline+ransomware",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Offline+ransomware",
+        "snort": ""
+    },
+    {
+        "name": [
+            "OMG! Ransomware",
+            "GPCode"
+        ],
+        "extensions": ".LOL!\n.OMG!",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "how to get data.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+OMG!+Ransomware"
+    },
+    {
+        "name": [
+            "Onyx"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Georgian ransomware",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/struppigel/status/791557636164558848"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Onyx"
+    },
+    {
+        "name": [
+            "Operation Global III"
+        ],
+        "extensions": ".EXE",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Is a file infector (virus)",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://news.thewindowsclub.com/operation-global-iii-ransomware-decryption-tool-released-70341/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Operation+Global+III",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Operation+Global+III",
+        "snort": ""
+    },
+    {
+        "name": [
+            "PadCrypt"
+        ],
+        "extensions": ".padcrypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "IMPORTANT READ ME.txt\nFile Decrypt Help.html\n",
+        "comment": "has a live support chat",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/padcrypt-the-first-ransomware-with-live-support-chat-and-an-uninstaller/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PadCrypt",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=PadCrypt",
+        "snort": ""
+    },
+    {
+        "name": [
+            "PClock"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Your files are locked !.txt\nYour files are locked !!.txt\nYour files are locked !!!.txt\nYour files are locked !!!!.txt\n%AppData%\\WinCL\\winclwp.jpg ",
+        "comment": "CryptoLocker Copycat",
+        "encryptionAlgorithm": "XOR",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PClock",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=PClock",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Petya",
+            "Goldeneye"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "encrypts disk partitions\nPDFBewerbungsmappe.exe",
+        "encryptionAlgorithm": "Modified Salsa20",
+        "decryptor": "http://www.thewindowsclub.com/petya-ransomware-decrypt-tool-password-generator\nhttps://www.youtube.com/watch?v=mSqxFjZq_z4",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/04/petya-ransomware/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Petya"
+    },
+    {
+        "name": [
+            "Philadelphia"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "<file_hash>.locked",
+        "ransomNoteFilenames": "",
+        "comment": "Coded by \"The_Rainmaker\"",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "www.bleepingcomputer.com/news/security/the-philadelphia-ransomware-offers-a-mercy-button-for-compassionate-criminals/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Philadelphia"
+    },
+    {
+        "name": [
+            "PizzaCrypts"
+        ],
+        "extensions": ".id-[victim_id]-maestro@pizzacrypts.info",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://download.bleepingcomputer.com/BloodDolly/JuicyLemonDecoder.zip",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PizzaCrypts"
+    },
+    {
+        "name": [
+            "PokemonGO"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on Hidden Tear",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/pokemonGO.html",
+            "http://www.bleepingcomputer.com/news/security/pokemongo-ransomware-installs-backdoor-accounts-and-spreads-to-other-drives/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PokemonGO"
+    },
+    {
+        "name": [
+            "Popcorn Time"
+        ],
+        "extensions": ".filock",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "restore_your_files.html\nrestore_your_files.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://www.bleepingcomputer.com/news/security/new-scheme-spread-popcorn-time-ransomware-get-chance-of-free-decryption-key/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Polyglot"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Immitates CTB-Locker",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "https://support.kaspersky.com/8547",
+        "resources": [
+            "https://securelist.com/blog/research/76182/polyglot-the-fake-ctb-locker/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Polyglot"
+    },
+    {
+        "name": [
+            "PowerWare",
+            "PoshCoder"
+        ],
+        "extensions": ".locky",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Open-sourced PowerShell",
+        "encryptionAlgorithm": "AES(128)",
+        "decryptor": "https://github.com/pan-unit42/public_tools/blob/master/powerware/powerware_decrypt.py",
+        "resources": [
+            "https://www.carbonblack.com/2016/03/25/threat-alert-powerware-new-ransomware-written-in-powershell-targets-organizations-via-microsoft-word/",
+            "http://researchcenter.paloaltonetworks.com/2016/07/unit42-powerware-ransomware-spoofing-locky-malware-family/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PowerWare",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=PowerWare",
+        "snort": ""
+    },
+    {
+        "name": [
+            "PowerWorm"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPT_INSTRUCTION.html\nlooks like CryptoWall 3, but with additional warnings at the bottom that ransom price will go up after some time",
+        "comment": "no decryption possible",
+        "encryptionAlgorithm": "AES, but throws key away, destroys the files",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PowerWorm",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=PowerWorm",
+        "snort": ""
+    },
+    {
+        "name": [
+            "PRISM"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.enigmasoftware.com/prismyourcomputerhasbeenlockedransomware-removal/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+PRISM",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=PRISM",
+        "snort": ""
+    },
+    {
+        "name": [
+            "R980"
+        ],
+        "extensions": ".crypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPTION INSTRUCTIONS.txt\nrtext.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://otx.alienvault.com/pulse/57976b52b900fe01376feb01/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+R980"
+    },
+    {
+        "name": [
+            "RAA encryptor",
+            "RAA"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "!!!README!!![id].rtf",
+        "comment": "Possible affiliation with Pony",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://reaqta.com/2016/06/raa-ransomware-delivering-pony/",
+            "http://www.bleepingcomputer.com/news/security/the-new-raa-ransomware-is-created-entirely-using-javascript/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+RAA+encryptor"
+    },
+    {
+        "name": [
+            "Radamant"
+        ],
+        "extensions": ".RDM\n.RRK\n.RAD\n.RADAMANT",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "YOUR_FILES.url",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "https://decrypter.emsisoft.com/",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/new-radamant-ransomware-kit-adds-rdm-extension-to-encrypted-files/\n",
+            "http://www.nyxbone.com/malware/radamant.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Radamant",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Radamant",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Rakhni",
+            "Agent.iih \nAura \nAutoit \nPletor \nRotor \nLamer \nIsda\nCryptokluchen\nBandarchor"
+        ],
+        "extensions": ".locked\n.kraken\n.darkness\n.nochance\n.oshit\n.oplata@qq_com\n.relock@qq_com\n.crypto\n.helpdecrypt@ukr.net\n.pizda@qq_com\n.dyatel@qq_com\n_ryp\n.nalog@qq_com\n.chifrator@qq_com\n.gruzin@qq_com\n.troyancoder@qq_com\n.encrypted\n.cry\n.AES256\n.enc\n.hb15",
+        "extensionPattern": ".coderksu@gmail_com_id[0-9]{2,3}\n.crypt@india.com.[\\w]{4,12}",
+        "ransomNoteFilenames": "<startup folder>\\fud.bmp\n<startup folder>\\paycrypt.bmp\n<startup folder>\\strongcrypt.bmp\n<startup folder>\\maxcrypt.bmp\nor a similar named bmp in the startup folder\n%APPDATA%\\Roaming\\<random name>.bmp is set as wallpaper\n",
+        "comment": "Files might be partially encrypted",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/us/viruses/disinfection/10556",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Rakhni"
+    },
+    {
+        "name": [
+            "Rannoh"
+        ],
+        "extensions": "",
+        "extensionPattern": "locked-<original name>.[a-zA-Z]{4}",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/8547",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Rannoh",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Rannoh",
+        "snort": "https://www.snort.org/search?query=samsam&submit_search="
+    },
+    {
+        "name": [
+            "Ransom32"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no extension change, Javascript Ransomware",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Ransom32",
+        "microsoftDetectionName": "Win32/Tescrypt ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32%2fTescrypt",
+        "sandbox": "https://www.hybrid-analysis.com/sample/20f8ea706350e016a5a2e926293bbc59360608bdc9d279c4635ccddeb773d392?environmentId=4",
+        "iocs": "https://otx.alienvault.com/browse?q=Ransom32",
+        "snort": ""
+    },
+    {
+        "name": [
+            "RansomLock"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Locks the desktop",
+        "encryptionAlgorithm": "Asymmetric 1024 ",
+        "decryptor": "",
+        "resources": [
+            "https://www.symantec.com/security_response/writeup.jsp?docid=2009-041513-1400-99&tabid=2"
+        ],
+        "screenshots": "https://www.google.com/search?tbm=isch&q=Ransomware+RansomLock",
+        "microsoftDetectionName": "Ransom: Win32/Teerac\nWin32/Fortrypt ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom%3aWin32%2fTeerac\nhttps://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Win32/Fortrypt",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Rector"
+        ],
+        "extensions": ".vscrypt\n.infected\n.bloc\n.korrektor",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/4264",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Rector"
+    },
+    {
+        "name": [
+            "RektLocker"
+        ],
+        "extensions": ".rekt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Readme.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+RektLocker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "RemindMe"
+        ],
+        "extensions": ".remind\n.crashed",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "decypt_your_files.html ",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/RemindMe.html"
+        ],
+        "screenshots": "http://i.imgur.com/gV6i5SN.jpg",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Rokku"
+        ],
+        "extensions": ".rokku",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README_HOW_TO_UNLOCK.TXT\nREADME_HOW_TO_UNLOCK.HTML",
+        "comment": "possibly related with Chimera",
+        "encryptionAlgorithm": "Curve25519 + ChaCha",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.org/threat-analysis/2016/04/rokku-ransomware/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Rokku",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Samas-Samsam",
+            "samsam.exe\nMIKOPONI.exe\nRikiRafael.exe\nshowmehowto.exe"
+        ],
+        "extensions": ".encryptedAES\n.encryptedRSA\n.encedRSA\n.justbtcwillhelpyou\n.btcbtcbtc\n.btc-help-you\n.only-we_can-help_you\n.iwanthelpuuu\n.notfoundrans\n.encmywork",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HELP_DECRYPT_YOUR_FILES.html\n###-READ-FOR-HELLPP.html",
+        "comment": "Targeted attacks\n-Jexboss\n-PSExec\n-Hyena",
+        "encryptionAlgorithm": "AES(256) + RSA(2096)",
+        "decryptor": "https://download.bleepingcomputer.com/demonslay335/SamSamStringDecrypter.zip",
+        "resources": [
+            "http://blog.talosintel.com/2016/03/samsam-ransomware.html",
+            "http://www.intelsecurity.com/advanced-threat-research/content/Analysis_SamSa_Ransomware.pdf"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Samas-Samsam",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Sanction"
+        ],
+        "extensions": ".sanction",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPT_YOUR_FILES.HTML",
+        "comment": "Based on HiddenTear, but heavily modified keygen",
+        "encryptionAlgorithm": "AES(256) + RSA(2096)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Sanction",
+        "microsoftDetectionName": "Win32/Troldesh",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/Encyclopedia/Entry.aspx?Name=Win32/Troldesh",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Rokku",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Satana"
+        ],
+        "extensions": "Sarah_G@ausi.com___",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "!satana!.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.com/threat-analysis/2016/06/satana-ransomware/",
+            "https://blog.kaspersky.com/satana-ransomware/12558/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Satana",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Scraper"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "no extension change",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://securelist.com/blog/research/69481/a-flawed-ransomware-encryptor/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Scraper"
+    },
+    {
+        "name": [
+            "Serpico"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "DetoxCrypto Variant",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/Serpico.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Serpico",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Sanction",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Shark",
+            "Atom"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Readme.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-shark-ransomware-project-allows-to-create-your-own-customized-ransomware/",
+            "http://www.bleepingcomputer.com/news/security/shark-ransomware-rebrands-as-atom-for-a-fresh-start/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Shark"
+    },
+    {
+        "name": [
+            "ShinoLocker"
+        ],
+        "extensions": ".shino",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://twitter.com/JakubKroustek/status/760560147131408384",
+            "http://www.bleepingcomputer.com/news/security/new-educational-shinolocker-ransomware-project-released/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+ShinoLocker"
+    },
+    {
+        "name": [
+            "Shujin",
+            "KinCrypt"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "\u6587\u4ef6\u89e3\u5bc6\u5e2e\u52a9.txt",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/chineseRansom.html",
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/chinese-language-ransomware-makes-appearance/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Shujin"
+    },
+    {
+        "name": [
+            "Simple_Encoder"
+        ],
+        "extensions": ".~",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "_RECOVER_INSTRUCTIONS.ini",
+        "comment": "",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "Ransom: BAT/Xibow ",
+        "microsoftInfo": "https://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=Ransom:BAT/Xibow",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Satana",
+        "snort": "https://www.snort.org/search?query=teslacrypt&submit_search="
+    },
+    {
+        "name": [
+            "SkidLocker / Pompous"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_IT.txt",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "http://www.bleepingcomputer.com/news/security/pompous-ransomware-dev-gets-defeated-by-backdoor/",
+        "resources": [
+            "http://www.nyxbone.com/malware/SkidLocker.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+SkidLocker+/+Pompous"
+    },
+    {
+        "name": [
+            "Smrss32"
+        ],
+        "extensions": ".encrypted",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "_HOW_TO_Decrypt.bmp",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Serpico",
+        "snort": "https://www.snort.org/search?query=teslacrypt&submit_search="
+    },
+    {
+        "name": [
+            "SNSLocker"
+        ],
+        "extensions": ".RSNSlocked\n.RSplited",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READ_Me.txt",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://nyxbone.com/malware/SNSLocker.html"
+        ],
+        "screenshots": "http://nyxbone.com/images/articulos/malware/snslocker/16.png"
+    },
+    {
+        "name": [
+            "Sport"
+        ],
+        "extensions": ".sport",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Sport",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Simple_Encoder",
+        "snort": "https://www.snort.org/search?query=teslacrypt&submit_search="
+    },
+    {
+        "name": [
+            "Stampado"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Random message includes bitcoin wallet address with instructions",
+        "comment": "Coded by \"The_Rainmaker\"\nRandomly deletes a file every 6hrs up to 96hrs then deletes decryption key",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "https://success.trendmicro.com/portal_kb_articledetail?solutionid=1114221\nhttp://www.bleepingcomputer.com/news/security/stampado-ransomware-campaign-decrypted-before-it-started/",
+        "resources": [
+            "https://cdn.streamable.com/video/mp4/kfh3.mp4",
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/the-economics-behind-ransomware-prices/"
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Smrss32",
+        "snort": "https://www.snort.org/search?query=teslacrypt&submit_search="
+    },
+    {
+        "name": [
+            "Strictor"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Based on EDA2, shows Guy Fawkes mask",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/Strictor.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Strictor"
+    },
+    {
+        "name": [
+            "Surprise"
+        ],
+        "extensions": ".surprise\n.tzu",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DECRYPTION_HOWTO.Notepad",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Surprise",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "https://otx.alienvault.com/browse?q=Sport",
+        "snort": "https://www.snort.org/search?query=torrentlocker&submit_search="
+    },
+    {
+        "name": [
+            "Survey"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ThxForYurTyme.txt",
+        "comment": "Still in development, shows FileIce survey",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/in-dev-ransomware-forces-you-do-to-survey-before-unlocking-computer/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Survey"
+    },
+    {
+        "name": [
+            "SynoLocker"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Exploited Synology NAS firmware directly over WAN",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+SynoLocker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "SZFLocker"
+        ],
+        "extensions": ".szf",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://now.avg.com/dont-pay-the-ransom-avg-releases-six-free-decryption-tools-to-retrieve-your-files/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+SZFLocker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TeleCrypt",
+            "Trojan-Ransom.Win32.Telecrypt\nPDM:Trojan.Win32.Generic"
+        ],
+        "extensions": ".xcri",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Telecrypt will generate a random string to encrypt with that is between 10-20 length and only contain the letters vo,pr,bm,xu,zt,dq.",
+        "encryptionAlgorithm": "",
+        "decryptor": "https://malwarebytes.app.box.com/s/kkxwgzbpwe7oh59xqfwcz97uk0q05kp3",
+        "resources": [
+            "https://blog.malwarebytes.com/threat-analysis/2016/11/telecrypt-the-ransomware-abusing-telegram-api-defeated/",
+            "https://securelist.com/blog/research/76558/the-first-cryptor-to-exploit-telegram/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "TeslaCrypt 0.x - 2.2.0",
+            "AlphaCrypt"
+        ],
+        "extensions": ".vvv\n.ecc\n.exx\n.ezz\n.abc\n.aaa\n.zzz\n.xyz",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HELP_TO_SAVE_FILES.txt\nHowto_RESTORE_FILES.html",
+        "comment": "Factorization",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/576600/tesladecoder-released-to-decrypt-exx-ezz-ecc-files-encrypted-by-teslacrypt/\nhttp://www.talosintel.com/teslacrypt_tool/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+TeslaCrypt+0.x+-+2.2.0",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TeslaCrypt 3.0+"
+        ],
+        "extensions": ".micro\n.xxx\n.ttt\n.mp3",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "4.0+ has no extension",
+        "encryptionAlgorithm": "AES(256) + ECHD + SHA1",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/576600/tesladecoder-released-to-decrypt-exx-ezz-ecc-files-encrypted-by-teslacrypt/\nhttp://www.welivesecurity.com/2016/05/18/eset-releases-decryptor-recent-variants-teslacrypt-ransomware/\nhttps://blog.kaspersky.com/raknidecryptor-vs-teslacrypt/12169/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+TeslaCrypt+3.0+",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TeslaCrypt 4.1A"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "RECOVER<5_chars>.html\nRECOVER<5_chars>.png\nRECOVER<5_chars>.txt\n_how_recover+<random 3 chars>.txt or .html\nhelp_recover_instructions+<random 3 chars>.BMP or .html or .txt\n_H_e_l_p_RECOVER_INSTRUCTIONS+<random 3 char>.txt, .html or .png\nRecovery+<5 random chars>.txt, .html, e.g., Recovery+gwote.txt\nRESTORE_FILES_<random 5 chars>.TXT , e.g. restore_files_kksli.bmp\nHELP_RESTORE_FILES_<random 5 chars>.TXT , e.g. help_restore_files_kksli.bmp\nHOWTO_RECOVER_FILES_<random 5 chars>.TXT. e.g. howto_recover_files_xeyye.txt\nHELP_TO_SAVE_FILES.txt or .bmp",
+        "comment": "no special extension",
+        "encryptionAlgorithm": "AES(256) + ECHD + SHA1",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/576600/tesladecoder-released-to-decrypt-exx-ezz-ecc-files-encrypted-by-teslacrypt/\nhttp://www.welivesecurity.com/2016/05/18/eset-releases-decryptor-recent-variants-teslacrypt-ransomware/\nhttps://blog.kaspersky.com/raknidecryptor-vs-teslacrypt/12169/",
+        "resources": [
+            "https://www.endgame.com/blog/your-package-has-been-successfully-encrypted-teslacrypt-41a-and-malware-attack-chain"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+TeslaCrypt+4.1A",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TeslaCrypt 4.2"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "RECOVER<5_chars>.html\nRECOVER<5_chars>.png\nRECOVER<5_chars>.txt\n_how_recover+<random 3 chars>.txt or .html\nhelp_recover_instructions+<random 3 chars>.BMP or .html or .txt\n_H_e_l_p_RECOVER_INSTRUCTIONS+<random 3 char>.txt, .html or .png\nRecovery+<5 random chars>.txt, .html, e.g., Recovery+gwote.txt\nRESTORE_FILES_<random 5 chars>.TXT , e.g. restore_files_kksli.bmp\nHELP_RESTORE_FILES_<random 5 chars>.TXT , e.g. help_restore_files_kksli.bmp\nHOWTO_RECOVER_FILES_<random 5 chars>.TXT. e.g. howto_recover_files_xeyye.txt\nHELP_TO_SAVE_FILES.txt or .bmp",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/576600/tesladecoder-released-to-decrypt-exx-ezz-ecc-files-encrypted-by-teslacrypt/\nhttp://www.welivesecurity.com/2016/05/18/eset-releases-decryptor-recent-variants-teslacrypt-ransomware/\nhttps://blog.kaspersky.com/raknidecryptor-vs-teslacrypt/12169/",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/teslacrypt-4-2-released-with-quite-a-few-modifications/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+TeslaCrypt+4.2",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Threat Finder"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HELP_DECRYPT.HTML",
+        "comment": "Files cannot be decrypted\nHas a GUI",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "TorrentLocker",
+            "Crypt0L0cker\n (subvariant)"
+        ],
+        "extensions": ".Encrypted\n.enc",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HOW_TO_RESTORE_FILES.html\nDECRYPT_INSTRUCTIONS.html\nDESIFROVANI_POKYNY.html\nINSTRUCCIONES_DESCIFRADO.html\nISTRUZIONI_DECRITTAZIONE.html\nENTSCHLUSSELN_HINWEISE.html\nONTSLEUTELINGS_INSTRUCTIES.html\nINSTRUCTIONS_DE_DECRYPTAGE.html\nSIFRE_COZME_TALIMATI.html\nwie_zum_Wiederherstellen_von_Dateien.txt\n",
+        "comment": "Newer variants not decryptable.\nOnly first 2 MB are encrypted\n",
+        "encryptionAlgorithm": "AES(256) CBC for files\nRSA(1024) for AES key\nuses LibTomCrypt",
+        "decryptor": "http://www.bleepingcomputer.com/forums/t/547708/torrentlocker-ransomware-cracked-and-decrypter-has-been-made/",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+TorrentLocker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TowerWeb"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "Payment_Instructions.jpg",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/618055/towerweb-ransomware-help-support-topic-payment-instructionsjpg/"
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Toxcrypt"
+        ],
+        "extensions": ".toxcrypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "tox.html",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Troldesh",
+            "Shade\nXTBL"
+        ],
+        "extensions": ".better_call_saul\n.xtbl\n.da_vinci_code\n.windows10",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "README<number>.txt ",
+        "comment": "May download additional malware after encryption",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "https://www.nomoreransom.org/uploads/ShadeDecryptor_how-to_guide.pdf",
+        "resources": [
+            "http://www.nyxbone.com/malware/Troldesh.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Troldesh",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "TrueCrypter"
+        ],
+        "extensions": ".enc",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/truecrypter-ransomware-accepts-payment-in-bitcoins-or-amazon-gift-card/"
+        ],
+        "screenshots": "http://www.bleepstatic.com/images/news/ransomware/t/truecrypter/truecrypter.png",
+        "microsoftDetectionName": "Win32/ZCryptor.A",
+        "microsoftInfo": "https://blogs.technet.microsoft.com/mmpc/2016/05/26/link-lnk-to-ransom/",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Turkish Ransom"
+        ],
+        "extensions": ".locked",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "DOSYALARINIZA ULA\u015eMAK \u0130\u00c7\u0130N A\u00c7INIZ.html",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/turkishRansom.html"
+        ],
+        "screenshots": "",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "UmbreCrypt"
+        ],
+        "extensions": "",
+        "extensionPattern": "umbrecrypt_ID_[VICTIMID]",
+        "ransomNoteFilenames": "README_DECRYPT_UMBRE_ID_[victim_id].jpg\nREADME_DECRYPT_UMBRE_ID_[victim_id].txt\ndefault32643264.bmp\ndefault432643264.jpg\n",
+        "comment": "CrypBoss Family",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "http://www.thewindowsclub.com/emsisoft-decrypter-hydracrypt-umbrecrypt-ransomware",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+UmbreCrypt"
+    },
+    {
+        "name": [
+            "Ungluk"
+        ],
+        "extensions": ".H3LL\n.0x0\n.1999",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "READTHISNOW!!!.txt\nHellothere.txt\nYOUGOTHACKED.TXT",
+        "comment": "Ransom note instructs to use Bitmessage to get in contact with attacker\nSecretishere.key\nSECRETISHIDINGHEREINSIDE.KEY\nsecret.key",
+        "encryptionAlgorithm": "AES",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Ungluk",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Unlock92"
+        ],
+        "extensions": ".CRRRT\n.CCCRRRPPP",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Unlock92",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "VaultCrypt",
+            "CrypVault\nZlader"
+        ],
+        "extensions": ".vault\n.xort\n.trun",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "VAULT.txt\nxort.txt\ntrun.txt\n<random>.hta | VAULT.hta",
+        "comment": "",
+        "encryptionAlgorithm": "uses gpg.exe",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/russianRansom.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+VaultCrypt"
+    },
+    {
+        "name": [
+            "VenisRansomware"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "In dev\nVenisRansom@protonmail.com",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-14-2016-exotic-lockydump-comrade-and-more/",
+            "http://pastebin.com/HuK99Xmj"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+VenisRansomware"
+    },
+    {
+        "name": [
+            "VenusLocker"
+        ],
+        "extensions": ".Venusf\n.Venusp",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ReadMe.txt",
+        "comment": "Based on EDA2",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "",
+        "resources": [
+            "https://blog.malwarebytes.com/threat-analysis/2016/08/venus-locker-another-net-ransomware/?utm_source=twitter&utm_medium=social",
+            "http://www.nyxbone.com/malware/venusLocker.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+VenusLocker"
+    },
+    {
+        "name": [
+            "Virlock"
+        ],
+        "extensions": ".exe",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Polymorphism / Self-replication",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/Virlock.html",
+            "http://www.welivesecurity.com/2014/12/22/win32virlock-first-self-reproducing-ransomware-also-shape-shifter/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Virlock"
+    },
+    {
+        "name": [
+            "Virus-Encoder",
+            "Crysis"
+        ],
+        "extensions": ".CrySiS\n.xtbl",
+        "extensionPattern": ".id-########.decryptformoney@india.com.xtbl",
+        "ransomNoteFilenames": "How to decrypt your data.txt",
+        "comment": "",
+        "encryptionAlgorithm": "AES(256)",
+        "decryptor": "http://www.welivesecurity.com/2016/11/24/new-decryption-tool-crysis-ransomware/",
+        "resources": [
+            "http://www.nyxbone.com/malware/virus-encoder.html",
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/crysis-targeting-businesses-in-australia-new-zealand-via-brute-forced-rdps/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Virus-Encoder"
+    },
+    {
+        "name": [
+            "WildFire Locker"
+        ],
+        "extensions": ".wflx",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HOW_TO_UNLOCK_FILES_README_(<ID>).txt",
+        "comment": "Zyklon variant",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://labs.opendns.com/2016/07/13/wildfire-ransomware-gaining-momentum/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+WildFire+Locker",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Xorist"
+        ],
+        "extensions": ".EnCiPhErEd\n.73i87A\n.p5tkjw\n.PoAr2w\n.fileiscryptedhard\n.encoderpass\n.zc3791",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "HOW TO DECRYPT FILES.TXT",
+        "comment": "encrypted files will still have the original non-encrypted header of 0x33 bytes length",
+        "encryptionAlgorithm": "XOR or TEA",
+        "decryptor": "https://support.kaspersky.com/viruses/disinfection/2911\nhttps://decrypter.emsisoft.com/xorist",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Xorist",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "XRTN "
+        ],
+        "extensions": ".xrtn",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "VaultCrypt family",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+XRTN+"
+    },
+    {
+        "name": [
+            "Zcrypt",
+            "Zcryptor"
+        ],
+        "extensions": ".zcrypt",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://blogs.technet.microsoft.com/mmpc/2016/05/26/link-lnk-to-ransom/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Zcrypt",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Zimbra"
+        ],
+        "extensions": ".crypto",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "how.txt",
+        "comment": "mpritsken@priest.com",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "http://www.bleepingcomputer.com/forums/t/617874/zimbra-ransomware-written-in-python-help-and-support-topic-crypto-howtotxt/"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Zimbra",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Zlader / Russian",
+            "VaultCrypt\nCrypVault"
+        ],
+        "extensions": ".vault",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "VaultCrypt family",
+        "encryptionAlgorithm": "RSA",
+        "decryptor": "",
+        "resources": [
+            "http://www.nyxbone.com/malware/russianRansom.html"
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Zlader+/+Russian",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    },
+    {
+        "name": [
+            "Zyklon",
+            "GNL Locker"
+        ],
+        "extensions": ".zyklon",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Hidden Tear family, GNL Locker variant",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": "https://www.google.de/search?tbm=isch&q=Ransomware+Zyklon",
+        "microsoftDetectionName": "",
+        "microsoftInfo": "",
+        "sandbox": "",
+        "iocs": "",
+        "snort": ""
+    }
+]
