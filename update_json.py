@@ -19,13 +19,13 @@ JSONFILE = 'RansomwareOverview.json'
 
 def write_json_file(input, filename):
     output = open(filename, 'w')
-    output.writelines(formatJson(sheet.to_json()))
+    output.writelines(formatJson(input))
 
 def excel_to_json(filename):
-    return pd.read_excel(open(filename,'rb'), sheetname='Ransomware')
+    return pd.read_excel(open(filename,'rb'), sheetname='Ransomware').to_json()
 
-def generate_json():
-    download_file(SOURCESHEET, OUTPUTSHEET)
-    write_json_file(excel_to_json(OUTPUTSHEET), JSONFILE)
+def generate_json(source_file, download_destination, json_file):
+    download_file(source_file, download_destination)
+    write_json_file(excel_to_json(download_destination), json_file)
 
-generate_json()
+generate_json(SOURCESHEET, OUTPUTSHEET, JSONFILE)
