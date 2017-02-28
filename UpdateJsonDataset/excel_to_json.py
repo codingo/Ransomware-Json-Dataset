@@ -16,13 +16,13 @@ def excel_to_json(filename):
     for rownum in range(1, sh.nrows):
         cars = OrderedDict()
         row_values = sh.row_values(rownum)
-        cars['RansomwareName'] = row_values[0]
-        cars['KnownExtensions'] = row_values[1]
-        cars['KnownPatterns'] = row_values[2]
+        cars['Name'] = row_values[0]
+        cars['Extensions'] = row_values[1]
+        cars['Patterns'] = row_values[2]
         cars['RansomNoteFilenames'] = row_values[3]
         cars['Comment'] = row_values[4]
         cars['EncryptionAlgorithm'] = row_values[5]
-        cars['AlsoKnownAs'] = row_values[6]
+        cars['AlternateNames'] = row_values[6]
         cars['Decryptor'] = row_values[7]
         cars['AdditionalInfo1'] = row_values[8]
         cars['AdditionalInfo2'] = row_values[9]
