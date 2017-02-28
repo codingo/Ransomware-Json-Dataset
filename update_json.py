@@ -17,9 +17,12 @@ SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdi
 OUTPUTSHEET = 'RansomwareOverview.xlsx'
 JSONFILE = 'RansomwareOverview.json'
 
-download_file(SOURCESHEET, OUTPUTSHEET)
+def generate_json():
+    download_file(SOURCESHEET, OUTPUTSHEET)
 
-sheet = pd.read_excel(open(OUTPUTSHEET,'rb'), sheetname='Ransomware')
+    sheet = pd.read_excel(open(OUTPUTSHEET,'rb'), sheetname='Ransomware')
 
-output = open(JSONFILE, 'w')
-output.writelines(formatJson(sheet.to_json()))
+    output = open(JSONFILE, 'w')
+    output.writelines(formatJson(sheet.to_json()))
+
+generate_json()
