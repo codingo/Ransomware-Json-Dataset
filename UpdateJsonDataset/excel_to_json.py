@@ -2,6 +2,7 @@ import simplejson as json
 import xlrd
 from collections import OrderedDict
 
+
 def excel_to_json(filename):
     wb = xlrd.open_workbook(filename)
     sh = wb.sheet_by_index(0)
@@ -15,15 +16,15 @@ def excel_to_json(filename):
         wares = OrderedDict()
         row_values = sh.row_values(rownum)
 
-        if row_values[6]=="":
+        if row_values[6] == "":
             name = row_values[0]
-            gre=[name]
+            gre = [name]
         elif "," in row_values[6]:
-            e=row_values[6].split(",")
+            e = row_values[6].split(",")
             ge = [row_values[0]]
-            gre=e+ge
+            gre = e+ge
         else:
-            gre=[row_values[0],row_values[6]]
+            gre = [row_values[0], row_values[6]]
 
         wares['name'] = gre
         wares['extensions'] = row_values[1]
@@ -32,10 +33,10 @@ def excel_to_json(filename):
         wares['comment'] = row_values[4]
         wares['encryptionAlgorithm'] = row_values[5]
         wares['decryptor'] = row_values[7]
-        if row_values[8]=="":
+        if row_values[8] == "":
             wares['resources'] = [row_values[9]]
-        elif row_values[9]=="":
-            wares['resources']=[row_values[8]]
+        elif row_values[9] == "":
+            wares['resources'] = [row_values[8]]
         else:
             wares['resources'] = [row_values[8], row_values[9]]
         wares['screenshots'] = row_values[10]
@@ -44,7 +45,7 @@ def excel_to_json(filename):
             rowe = mw.row_values(r)
 
             if row_values[0] == rowe[0]:
-                wares['microsoftDetectionName']=rowe[1]
+                wares['microsoftDetectionName'] = rowe[1]
                 wares['microsoftInfo'] = rowe[2]
                 wares['sandbox'] = rowe[3]
                 wares['iocs'] = rowe[4]
