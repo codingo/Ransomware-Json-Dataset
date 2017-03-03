@@ -13,7 +13,8 @@ from excel_to_json import excel_to_json
 from download_file import download_file
 
 
-SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAtofLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
+SOURCESHEET = 'https://docs.google.com/spreadsheets' + \
+                '/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
 OUTPUTSHEET = '../RansomwareOverview.xlsx'
 JSONFILE = '../ransomware_overview.json'
 
