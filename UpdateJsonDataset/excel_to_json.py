@@ -14,42 +14,42 @@ def excel_to_json(filename):
     # Iterate through each row in worksheet and fetch values into dict
     for rownum in range(1, ransomware_sheet.nrows):
         wares = OrderedDict()
-        row_values = ransomware_sheet.row_values(rownum)
+        ransomware_values = ransomware_sheet.row_values(rownum)
 
-        if row_values[6] == "":
-            name = row_values[0]
+        if ransomware_values[6] == "":
+            name = ransomware_values[0]
             gre = [name]
-        elif "," in row_values[6]:
-            e = row_values[6].split(",")
-            ge = [row_values[0]]
+        elif "," in ransomware_values[6]:
+            e = ransomware_values[6].split(",")
+            ge = [ransomware_values[0]]
             gre = e+ge
         else:
-            gre = [row_values[0], row_values[6]]
+            gre = [ransomware_values[0], ransomware_values[6]]
 
         wares['name'] = gre
-        wares['extensions'] = row_values[1]
-        wares['extensionPattern'] = row_values[2]
-        wares['ransomNoteFilenames'] = row_values[3]
-        wares['comment'] = row_values[4]
-        wares['encryptionAlgorithm'] = row_values[5]
-        wares['decryptor'] = row_values[7]
-        if row_values[8] == "":
-            wares['resources'] = [row_values[9]]
-        elif row_values[9] == "":
-            wares['resources'] = [row_values[8]]
+        wares['extensions'] = ransomware_values[1]
+        wares['extensionPattern'] = ransomware_values[2]
+        wares['ransomNoteFilenames'] = ransomware_values[3]
+        wares['comment'] = ransomware_values[4]
+        wares['encryptionAlgorithm'] = ransomware_values[5]
+        wares['decryptor'] = ransomware_values[7]
+        if ransomware_values[8] == "":
+            wares['resources'] = [ransomware_values[9]]
+        elif ransomware_values[9] == "":
+            wares['resources'] = [ransomware_values[8]]
         else:
-            wares['resources'] = [row_values[8], row_values[9]]
-        wares['screenshots'] = row_values[10]
+            wares['resources'] = [ransomware_values[8], ransomware_values[9]]
+        wares['screenshots'] = ransomware_values[10]
 
         for r in range(1, detection_sheet.nrows):
-            rowe = detection_sheet.row_values(r)
+            detection_values = detection_sheet.row_values(r)
 
-            if row_values[0] == rowe[0]:
-                wares['microsoftDetectionName'] = rowe[1]
-                wares['microsoftInfo'] = rowe[2]
-                wares['sandbox'] = rowe[3]
-                wares['iocs'] = rowe[4]
-                wares['snort'] = rowe[5]
+            if ransomware_values[0] == detection_values[0]:
+                wares['microsoftDetectionName'] = detection_values[1]
+                wares['microsoftInfo'] = detection_values[2]
+                wares['sandbox'] = detection_values[3]
+                wares['iocs'] = detection_values[4]
+                wares['snort'] = detection_values[5]
 
         c_list.append(wares)
 
