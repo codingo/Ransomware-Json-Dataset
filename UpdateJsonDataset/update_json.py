@@ -2,7 +2,8 @@
 AUTHOR: Michael Skelton
 DATE: 28 February 2017
 
-CREDIT: Generates a json dataset from the public Google Spreadsheet originally created by
+CREDIT: Generates a json dataset from the public 
+Google Spreadsheet originally created by
 Mosh (@nyxbone) and @cyb3rops.
 
 See: http://goo.gl/b9R8DE
@@ -11,13 +12,17 @@ See: http://goo.gl/b9R8DE
 from excel_to_json import excel_to_json
 from download_file import download_file
 
-SOURCESHEET = 'https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
+
+SOURCESHEET = 'https://docs.google.com/spreadsheets' + \
+                '/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pub?output=xlsx'
 OUTPUTSHEET = '../RansomwareOverview.xlsx'
 JSONFILE = '../ransomware_overview.json'
+
 
 def write_json_file(json_data, filename):
     output = open(filename, 'w')
     output.writelines(json_data)
+
 
 def generate_json(source_file, download_destination, json_file):
     download_file(source_file, download_destination)
