@@ -1,6 +1,6 @@
 
 # Ransomware-Resources
-Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 varients of ransomware using public sources.
+Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 variants of ransomware using public sources.
 
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Resources.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Resources)
 
