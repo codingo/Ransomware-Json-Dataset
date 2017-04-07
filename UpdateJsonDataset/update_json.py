@@ -45,7 +45,7 @@ def main():
     print('[-] Validating json file...')
     print('Debug: ' + JSONFILE)
     if(is_json(JSONFILE)):
-        print('[-] Successfully generated an updated dataset.')
+        print('[!] Successfully generated an updated dataset.')
     else:
-        print('[-] Unable to validate json datafile, please review the sourcesheet and output.')
+        print('[!] Unable to validate json datafile, please review the sourcesheet and output.')
 main()
