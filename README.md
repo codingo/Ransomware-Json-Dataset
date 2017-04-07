@@ -1,6 +1,7 @@
 
 # Ransomware-Resources
 A collection of resources to help in the detection, mitigation and prevention of ransomware.
+
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Resources.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Resources)
 
 ## Install Dependencies
