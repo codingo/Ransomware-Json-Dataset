@@ -1,6 +1,6 @@
 
 # Ransomware-Resources
-A collection of resources to help in the detection, mitigation and prevention of ransomware.
+Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 varients of ransomware using public sources.
 
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Resources.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Resources)
 
