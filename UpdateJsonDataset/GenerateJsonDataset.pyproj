@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{177993af-a861-4be0-83da-b3aa3e9df1e7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>update_json.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

@@ -20,11 +20,13 @@ JSONFILE = '../ransomware_overview.json'
 
 
 def write_json_file(json_data, filename):
+    print('[-] Writing file...')
     output = open(filename, 'w')
     output.writelines(json_data)
 
 
 def generate_json(source_file, download_destination, json_file):
+    print('[-] Generating json file...')
     download_file(source_file, download_destination)
     write_json_file(excel_to_json(download_destination), json_file)
 
