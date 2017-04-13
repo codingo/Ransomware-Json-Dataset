@@ -2,7 +2,7 @@
 # Ransomware-Json-Dataset
 Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 variants of ransomware using public sources.
 
-[![Build Status](https://travis-ci.org/codingo/Ransomware-Resources.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Resources)
+[![Build Status](https://travis-ci.org/codingo/Ransomware-Json-Dataset.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Json-Dataset)
 
 ## Install Dependencies
 ```
