@@ -33,6 +33,7 @@ def excel_to_json(filename):
         wares['comment'] = ransomware_values[4]
         wares['encryptionAlgorithm'] = ransomware_values[5]
         wares['decryptor'] = ransomware_values[7]
+        
         if ransomware_values[8] == "":
             wares['resources'] = [ransomware_values[9]]
         elif ransomware_values[9] == "":
