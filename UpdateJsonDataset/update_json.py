@@ -19,6 +19,7 @@ SOURCESHEET = 'https://docs.google.com/spreadsheets' + \
 OUTPUTSHEET = '../RansomwareOverview.xlsx'
 JSONFILE = '../ransomware_overview.json'
 
+
 def print_banner():
      print(' ____                                                         ____        _                 _   ')
      print('|  _ \ __ _ _ __  ___  ___  _ __ _____      ____ _ _ __ ___  |  _ \  __ _| |_ __ _ ___  ___| |_ ')
@@ -28,17 +29,20 @@ def print_banner():
      print('Authored by Michael \'codingo\' Skelton (michael@codingo.com.au)')
      print('Generates a json dataset of known ransomware from the public Google Spreadsheet originally created by Mosh (@nyxbone) and @cyb3rops.')
 
+    
 def write_json_file(json_data, filename):
     print('[-] Writing file...')
     output = open(filename, 'w')
     output.writelines(json_data)
 
+    
 def generate_json(source_file, download_destination, json_file):
     print('[-] Downloading source spreadsheet...')
     download_file(source_file, download_destination)
     print('[-] Generating json file...')
     write_json_file(excel_to_json(download_destination), json_file)
 
+    
 def main():
     print_banner()
     generate_json(SOURCESHEET, OUTPUTSHEET, JSONFILE)
