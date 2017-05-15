@@ -6499,33 +6499,19 @@
     },
     {
         "name": [
-            "WannaCry"
+            "WannaCry",
+            "WannaCrypt\nWCry"
         ],
-        "extensions": "",
+        "extensions": ".wcry\n.wncry\n.WNCRY\n.WCRY",
         "extensionPattern": "",
-        "ransomNoteFilenames": "",
+        "ransomNoteFilenames": "@Please_Read_Me@.txt",
         "comment": "",
         "encryptionAlgorithm": "",
         "decryptor": "",
         "resources": [
             "https://twitter.com/struppigel/status/846241982347427840"
         ],
-        "screenshots": ""
-    },
-    {
-        "name": [
-            "Wcry"
-        ],
-        "extensions": ".wcry",
-        "extensionPattern": "",
-        "ransomNoteFilenames": "",
-        "comment": "",
-        "encryptionAlgorithm": "",
-        "decryptor": "",
-        "resources": [
-            "https://twitter.com/siri_urz/status/830008052954890242/photo/1"
-        ],
-        "screenshots": ""
+        "screenshots": "https://docs.google.com/spreadsheets/d/1XNCCiiwpIfW8y0mzTUdLLVzoW6x64hkHJ29hcQW5deQ/pubhtml#"
     },
     {
         "name": [
@@ -6822,7 +6808,7 @@
         "name": [
             ""
         ],
-        "extensions": 1999.0,
+        "extensions": "",
         "extensionPattern": "",
         "ransomNoteFilenames": "",
         "comment": "",
