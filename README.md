@@ -4,7 +4,7 @@ Compiles a json dataset containing properties to aid in the detection and mitiga
 
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Json-Dataset.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Json-Dataset)
 [![License](https://img.shields.io/badge/license-GPL3-_red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![Python 3.2|3.6](https://img.shields.io/badge/python-3.2|3.6-green.svg)](https://www.python.org/) [![License]
+[![Python 3.2|3.6](https://img.shields.io/badge/python-3.2|3.6-green.svg)](https://www.python.org/)
 [![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_)
 
 
