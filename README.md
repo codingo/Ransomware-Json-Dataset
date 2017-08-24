@@ -3,6 +3,9 @@
 Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 variants of ransomware using public sources.
 
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Json-Dataset.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Json-Dataset)
+[![Python 3.2|3.6](https://img.shields.io/badge/python-3.2|3.6-green.svg)](https://www.python.org/) [![License]
+[![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_)
+
 
 ## Install Dependencies
 ```
