@@ -7,6 +7,7 @@
 *.userosscache
 *.sln.docstates
 *.credentials
+*.pyc
 
 # User-specific files (Google API)
 client_secret.json
