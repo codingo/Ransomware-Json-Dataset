@@ -26,7 +26,7 @@ def print_banner():
      print('| |_) / _` | \'_ \/ __|/ _ \| \'_ ` _ \ \ /\ / / _` | \'__/ _ \ | | | |/ _` | __/ _` / __|/ _ \ __|')
      print('|  _ < (_| | | | \__ \ (_) | | | | | \ V  V / (_| | | |  __/ | |_| | (_| | || (_| \__ \  __/ |_ ')
      print('|_| \_\__,_|_| |_|___/\___/|_| |_| |_|\_/\_/ \__,_|_|  \___| |____/ \__,_|\__\__,_|___/\___|\__|')
-     print('Authored by Michael \'codingo\' Skelton (michael@codingo.com.au)')
+     print('Authored by @codingo_')
      print('Generates a json dataset of known ransomware from the public Google Spreadsheet originally created by Mosh (@nyxbone) and @cyb3rops.')
 
     
