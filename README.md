@@ -1,6 +1,6 @@
 
 # Ransomware-Json-Dataset
-Compiles a json dataset containing properties to aid in the detection and mitigation of over 400 variants of ransomware using public sources.
+Compiles a json dataset containing properties to aid in the detection and mitigation of over 1000 variants of ransomware using public sources.
 
 [![Build Status](https://travis-ci.org/codingo/Ransomware-Json-Dataset.svg?branch=master)](https://travis-ci.org/codingo/Ransomware-Json-Dataset)
 [![License](https://img.shields.io/badge/license-GPL3-_red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
