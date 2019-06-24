@@ -1314,7 +1314,7 @@
         "extensionPattern": "",
         "ransomNoteFilenames": "",
         "comment": "no longer relevant",
-        "encryptionAlgorithm": "",
+        "encryptionAlgorithm": "RSA",
         "decryptor": "",
         "resources": [
             "https://www.fireeye.com/blog/executive-perspective/2014/08/your-locker-of-information-for-cryptolocker-decryption.html",
@@ -1704,6 +1704,21 @@
     },
     {
         "name": [
+            "Crysis"
+        ],
+        "extensions": ".bip",
+        "extensionPattern": ".id-[id].[email].bip",
+        "ransomNoteFilenames": "",
+        "comment": "Locks screen. Ransom note ask to contact 888@cock.email. Attack timeline shows machine was compromised by RDP bruteforce first then implant the ransomware as final step",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://www.bleepingcomputer.com/news/security/new-arena-crysis-ransomware-variant-released/"
+        ],
+        "screenshots": "https://blog.trendmicro.com/trendlabs-security-intelligence/brute-force-rdp-attacks-plant-crysis-ransomware/"
+    },
+    {
+        "name": [
             "CTB-Faker"
         ],
         "extensions": "",
@@ -1816,14 +1831,15 @@
         "name": [
             "Dharma"
         ],
-        "extensions": ".dharma\n.wallet\n.zzzzz",
+        "extensions": ".dharma\n.wallet\n.zzzzz\n.adobe",
         "extensionPattern": ".<email>.(dharma|wallet|zzzzz)\n.id-%ID%.[moneymaker2@india.com].wallet",
         "ransomNoteFilenames": "README.txt\nREADME.jpg\nInfo.hta",
         "comment": "CrySiS variant",
         "encryptionAlgorithm": "",
         "decryptor": "",
         "resources": [
-            "https://www.bleepingcomputer.com/news/security/kaspersky-releases-decryptor-for-the-dharma-ransomware/"
+            "https://www.bleepingcomputer.com/news/security/kaspersky-releases-decryptor-for-the-dharma-ransomware/",
+            "https://www.bleepingcomputer.com/forums/t/632389/dharma-ransomware-filenameemailwalletbipcmbarena-support-topic/"
         ],
         "screenshots": ""
     },
@@ -2412,7 +2428,7 @@
     },
     {
         "name": [
-            "FakeGlobe"
+            "FakeGlobe aka GlobeImposter"
         ],
         "extensions": ".crypt",
         "extensionPattern": "",
@@ -3743,6 +3759,21 @@
     },
     {
         "name": [
+            "LockCrypt"
+        ],
+        "extensions": ".lock",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "ReadMe.TxT",
+        "comment": "",
+        "encryptionAlgorithm": "",
+        "decryptor": "09/29/2017",
+        "resources": [
+            "https://www.bleepingcomputer.com/forums/t/648384/lockcrypt-lock-support-topic-readmetxt/"
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
             "Locked-In"
         ],
         "extensions": "",
@@ -3796,12 +3827,12 @@
         "name": [
             "Locky"
         ],
-        "extensions": ".locky\n.zepto\n.odin\n.shit\n.thor\n.aesir\n.zzzzz\n.osiris\n.DIABLO6",
+        "extensions": ".locky\n.zepto\n.odin\n.shit\n.thor\n.aesir\n.zzzzz\n.osiris\n.DIABLO6\n.lukitus",
         "extensionPattern": "([A-F0-9]{32}).locky\n([A-F0-9]{32}).zepto\n([A-F0-9]{32}).odin\n([A-F0-9]{32}).shit\n([A-F0-9]{32}).thor\n([A-F0-9]{32}).aesir\n([A-F0-9]{32}).zzzzz\n([A-F0-9]{32}).osiris",
         "ransomNoteFilenames": "_Locky_recover_instructions.txt\n_Locky_recover_instructions.bmp\n_HELP_instructions.txt\n_HELP_instructions.bmp\n_HOWDO_text.html\n_WHAT_is.html\n_INSTRUCTION.html\nDesktopOSIRIS.(bmp|htm)\nOSIRIS-[0-9]{4}.htm",
         "comment": "Affiliations with Dridex and Necurs botnets\nIOCs: https://ghostbin.com/paste/7jm4j",
         "encryptionAlgorithm": "AES(128)",
-        "decryptor": "08/08/2017 - Diablo6 Locky variant added",
+        "decryptor": "08/08/2017 - Diablo6 Locky variant added\n09/28/2017 - Lukitus Locky varinat added",
         "resources": [
             "http://www.bleepingcomputer.com/news/security/new-locky-version-adds-the-zepto-extension-to-encrypted-files/"
         ],
@@ -4713,6 +4744,21 @@
     },
     {
         "name": [
+            "Phobos"
+        ],
+        "extensions": ".phobos",
+        "extensionPattern": "file name[ID-000QQQ.hacker@AOL.com].phobos",
+        "ransomNoteFilenames": "",
+        "comment": "Rebranded Dharma Ransom Note",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            "https://www.coveware.com/blog/phobos-ransomware-distributed-dharma-crew"
+        ],
+        "screenshots": "https://www.bleepingcomputer.com/forums/t/688649/phobos-ransomware-help-topic-phobos-phoboshta/page-2"
+    },
+    {
+        "name": [
             "Phoenix"
         ],
         "extensions": ".R.i.P",
@@ -5510,7 +5556,7 @@
         "extensionPattern": "",
         "ransomNoteFilenames": "HELP_DECRYPT_FILES.html",
         "comment": "RaaS",
-        "encryptionAlgorithm": "",
+        "encryptionAlgorithm": "AES(256) + RSA(2096)",
         "decryptor": "",
         "resources": [
             "https://www.bleepingcomputer.com/news/security/new-satan-ransomware-available-through-a-ransomware-as-a-service-/"
@@ -5536,6 +5582,36 @@
         "sandbox": "",
         "iocs": "",
         "snort": ""
+    },
+    {
+        "name": [
+            "Saturn"
+        ],
+        "extensions": "",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "#DECRYPT_MY_FILES#.txt\n#DECRYPT_MY_FILES#.vbs\n#DECRYPT_MY_FILES.BMP",
+        "comment": "VM aware, deletes volume shadow copies, disables windows startup repair, clears windows backup catalog.",
+        "encryptionAlgorithm": "",
+        "decryptor": "02/19/2018",
+        "resources": [
+            ""
+        ],
+        "screenshots": ""
+    },
+    {
+        "name": [
+            "Scarab"
+        ],
+        "extensions": ".scarab",
+        "extensionPattern": "",
+        "ransomNoteFilenames": "",
+        "comment": "Post encryption, text file is dropped w/personal identifier and email to contact as well as a Bitmessage account. Email = suupport[@]protonmail[.]com and Bitmessage = BM-2cTu8prUGDS6XmXqPrZiYXXeqyFw5dXEba",
+        "encryptionAlgorithm": "",
+        "decryptor": "",
+        "resources": [
+            ""
+        ],
+        "screenshots": ""
     },
     {
         "name": [
